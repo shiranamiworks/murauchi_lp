@@ -586,8 +586,8 @@ h2{
   text-align: left;
   margin-bottom: 30px;
   border-bottom: 1px solid;
-  border-top: 1px solid;
-  padding: 40px 0;
+/*  border-top: 1px solid;*/
+  padding: 100px 0 40px;
 }
 .stores .line-txt{
   font-size: 30px;
@@ -729,7 +729,7 @@ h2{
 @media screen and (max-width:1024px) {
     
   .stores{
-    padding: 0;
+    padding: 50px 0 0;
   }
   .store-list li{
     display: block;
