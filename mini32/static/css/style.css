@@ -222,6 +222,7 @@ End-responsible-contents  only-pc
 
 .fix_navi {
   position: fixed;
+  width: 100%;
   top: 50%;
   right: 0;
   z-index: 10;
@@ -232,13 +233,37 @@ End-responsible-contents  only-pc
 .cp_navi #cp_sidenav a {
     position: absolute;
     right: -210px;
-    width: 260px;
+    max-width: 260px;
     transition: 0.3s;
 }
 .cp_navi #cp_sidenav a:hover {
     right: 0;
     opacity: 1;
     transition: .3s;
+}
+@media screen and (max-width:768px) {
+  .fix_navi {
+    display: none;
+  }
+  .fixed-banner{
+    position: fixed;
+    width: auto;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+  }
+  .fixed-banner img {
+    display: block;
+  }
+  .fixed-banner .close {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 16%;
+    right: 10%;
+    width: 5%;
+  }
 }
 
 .shiny-btn2 {
@@ -348,6 +373,7 @@ End-responsible-contents  only-pc
   background: #85217A;
   color: #fff;
   padding: 10px 8px 4px;
+  box-sizing: border-box;
   margin: 0 6px;
 }
 
@@ -418,7 +444,7 @@ End-responsible-contents  only-pc
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 10%;
-  padding-bottom: 200px;
+  padding-bottom: 140px;
 }
 .sec03 .tit{
   max-width: 860px;
@@ -454,11 +480,12 @@ img.circle{
   padding: 18% 0 32%;
   text-indent: -13%;
   padding-left: 20%;
+  box-sizing: border-box;
 }
 .sec03 .txt span{
-  font-size: 28px;
   color: #FF0000;
   margin-right: 10px;
+  font-family: "MINI Serif-Bold";
 }
 .sec03 .list{
   max-width: 860px;
@@ -473,6 +500,63 @@ img.circle{
   margin-right: auto;
 }
 
+.sec04{
+  text-align: center;
+  background: #85217A;
+  padding: 0 0 80px;
+}
+.sec04 .mark{
+  max-width: 54px;
+  margin: -50px auto 30px;
+}
+.sec04 .list{
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+}
+.sec04 .list li{
+  display: inline-block;
+  vertical-align: top;
+  width: 56%;
+  margin-right: 3%;
+}
+.sec04 .list li:last-child{
+  width: 40%;
+  margin-right: auto;
+}
+.sec04 .btn{
+  margin-top: 30px;
+}
+
+.sec05{
+  text-align: center;
+  padding: 100px 0 0;
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+}
+.sec05 .tit{
+  max-width: 1045px;
+  margin: 0 auto 40px;
+}
+.sec05 .list li{
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+  vertical-align: top;
+}
+.sec05 .list li:last-child{
+  margin-right: auto;
+}
+.sec05 .txt{
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.sec05 .txt span{
+  font-size: 36px;
+}
 
 h2{
   margin-bottom: 30px;
@@ -634,6 +718,7 @@ h2{
 .box{
   border: 1px solid #000;
   padding: 20px;
+  box-sizing: border-box;
   text-align: center;
   margin: 40px auto;
 }
@@ -705,6 +790,7 @@ h2{
   }
   .box{
     padding: 20px;
+    box-sizing: border-box;
     margin: 20px auto;
   }
 }
@@ -712,103 +798,183 @@ h2{
 
 @media screen and (max-width:768px) {
     
-  .main-visual .mv01{
-    top: 30%;
+  .main-visual .mv02{
+    width: 70%;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top: auto;
+    bottom: -12%;
+    left: 6%;
+    z-index: 2;
+  }
+  .main-visual .mv03{
+    background: #51C1FF;
+  }
+  .main-visual .mv04{
+    width: 70%;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    top: auto;
+    bottom: -16%;
+    left: 6%;
+    z-index: 4;
   }
     
   .intro{
     text-align: left;
-    padding: 40px 0 60px;
-    background: url(../images/top/bg-sp.jpg);
+    padding: 60px 0;
   }
   .intro .text01{
-    font-size: 34px;
-  }
-  .intro .day{
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  .intro .day span{
-    font-size: 32px;
-  }
-  .intro .text02{
     font-size: 14px;
-    margin-bottom: 20px;
-  }
-  .intro .point{
-    max-width: 600px;
-    margin: 0 auto 20px;
-  }
-  .intro .text03{
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  .intro .mini{
-    margin-top: 20px;
-  }
-  .animation_box {
-    display: block;
-    width: 100%;
     margin-bottom: 10px;
   }
-  @keyframes fadeInDown02 {
-    0% {
-      transform: translate(20%, 10%);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
+  .intro .day{
+    font-size: 30px;
+    margin-bottom: 40px;
   }
-  @keyframes fadeInDown03 {
-    0% {
-      transform: translate(-20%, 20%);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
+  .intro .day span{
+    font-size: 36px;
+  }
+  .intro .text02{
+    font-size: 20px;
+  }
+  .intro .text02 span{
+    font-size: 22px;
   }
     
-  .entry{
-    margin: 40px 0;
+  .sections{
+    margin-bottom: 60px;
   }
-  .entry .text{
-    text-align: center;
-    font-size: 18px;
+  .sections .img01{
+    padding: 60px 0;
   }
-    
-.recommend {
-  text-align: left;
-  padding: 40px 0;
-  margin-bottom: 40px;
+  .sections .img02{
+    width: 86%;
+    margin: 30px auto 0;
+  }
+  .sections .txt-img{
+    position: static;
+    width: 86%;
+    top: 0;
+    right: auto;
+    margin: auto;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+  .sec02 .img01{
+    padding: 60px 0;
+  }
+  .sec02 .img02{
+    width: 90%;
+    margin: 30px auto 0;
+  }
+  .sections .list{
+    margin: 40px auto 10px;
+  }
+  .sections .list li{
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    margin-bottom: 15px;
+  }
+
+.sec03{
+  text-align: center;
+  background: url(../images/top/bg-sp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 95%;
+  padding-bottom: 80px;
 }
-.recommend .text01{
-  font-size: 32px;
+.sec03 .tit{
+  max-width: 860px;
+  width: 80%;
+  margin: 0 auto 14%;
 }
-.recommend .text02{
+.fix-img{
+  position: relative;
+}
+.circle{
+  position: absolute;
+  top: -14%;
+  left: 0;
+}
+img.inner-img{
+  width: 70%;
+}
+img.circle{
+  animation: rotate-anime 20s linear infinite;
+  transform: rotateZ(45deg);
+}
+@keyframes rotate-anime {
+  0%  {transform: rotate(0);}
+  100%  {transform: rotate(360deg);}
+}
+.sec03 .txt{
+  text-align: center;
   font-size: 14px;
-  margin-bottom: 30px;
+  padding: 18% 0 32%;
+  text-indent: 0;
 }
-.recommend .car-list{
-  margin-bottom: 40px;
+.sec03 .list{
+  max-width: 860px;
+  width: 98%;
+  margin: -42% auto 0;
 }
-.recommend .car-list.list05{
-  margin-bottom: 20px;
+.sec03 .list li{
+  vertical-align: top;
+  display: inline-block;
+  width: 48%;
+  margin-right: 1%;
 }
-.recommend .model{
-  font-size: 46px;
+.sec03 .list li:nth-child(2n){
+  margin-right: auto;
 }
-.recommend .info{
-  font-size: 12px;
-  margin-bottom: 20px;
+
+.sec04{
+  text-align: center;
+  background: #85217A;
+  padding: 0 0 80px;
 }
-.recommend .image{
-  margin-bottom: 20px;
+.sec04 .mark{
+  max-width: 54px;
+  margin: -40px auto 30px;
 }
-.recommend .car-list.list02 .image,
-.recommend .car-list.list04 .image,
-.recommend .car-list.list05 .image{
+.sec04 .list li{
+  display: block;
   width: 100%;
-  margin: 0 auto 20px;
+  margin: 0 auto 40px;
+}
+.sec04 .list li:last-child{
+  width: 100%;
+  margin-bottom: auto;
+}
+.sec04 .btn{
+  margin-top: 20px;
+}
+
+.sec05{
+  padding: 60px 0 0;
+}
+.sec05 .tit{
+  max-width: 1045px;
+  margin: 0 auto 40px;
+}
+.sec05 .list li{
+  display: block;
+  width: 100%;
+  margin: 0 auto 40px;
+}
+.sec05 .list li:last-child{
+  margin-bottom: auto;
+}
+.sec05 .txt{
+  text-align: left;
+  margin-top: 20px;
+  line-height: 1.3;
 }
 
   .comment{
@@ -915,10 +1081,10 @@ h2{
 @media screen and (max-width:768px) {
   .footer{
     width:70%;
-    margin: 0 auto 80px;
+    margin: 0 auto 180px;
   }
   .page-top {
-    bottom: 80px;
+    bottom: 50px;
   }
 }
 
