@@ -13,7 +13,7 @@
 @font-face {
   font-family: "MINI Serif-Bold";
   font-weight: 700;
-  src: url("../font/font/MINI Serif-Bold.woff") format("woff");
+  src: url("../font/MINI Serif-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "MINI Serif-Italic";
@@ -232,9 +232,9 @@ End-responsible-contents  only-pc
 }
 .cp_navi #cp_sidenav a {
     position: absolute;
-    right: -210px;
-    max-width: 260px;
-    transition: 0.3s;
+    right: 0;
+    max-width: 207px;
+/*    transition: 0.3s;*/
 }
 .cp_navi #cp_sidenav a:hover {
     right: 0;
@@ -255,13 +255,14 @@ End-responsible-contents  only-pc
   }
   .fixed-banner img {
     display: block;
+    width: 100vw;
   }
   .fixed-banner .close {
     display: block;
     cursor: pointer;
     position: absolute;
     top: 16%;
-    right: 10%;
+    right: 5%;
     width: 5%;
   }
 }
@@ -434,7 +435,7 @@ End-responsible-contents  only-pc
 }
 
 .btn{
-  max-width: 280px;
+  max-width: 420px;
   margin: auto;
 }
 
@@ -660,15 +661,22 @@ h2{
   margin-bottom: 20px;
 }
 .stores .btn-mini a{
-  display: block;
+display: inline-block;
+vertical-align: middle;
+}
+.stores .btn-mini a.detail{
   background: #000;
   color: #fff;
   font-size: 24px;
   font-weight: bold;
   padding: 24px 0 22px;
-  max-width: 300px;
+  max-width: 220px;
   width: 80%;
-/*  margin: 0 auto;*/
+}
+.stores .btn-mini a.insta{
+  padding: 0;
+  max-width: 60px;
+  background: none;
   text-align: center;
 }
 .stores .movie{
@@ -737,7 +745,7 @@ h2{
   font-size: 24px;
   font-weight: bold;
   padding: 24px 0 22px;
-  max-width: 300px;
+  max-width: 220px;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -771,7 +779,8 @@ h2{
   .btn-sp{
     display: inherit;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
   }
   .btn-sp.tel{
     margin-top: 0px;
@@ -875,12 +884,27 @@ h2{
     margin: 40px auto 10px;
   }
   .sections .list li{
+    position: relative;
     display: inline-block;
     vertical-align: top;
     width: 49%;
     margin-bottom: 15px;
   }
-
+  .sections .list li a.detail{
+    position: absolute;
+    width: 44%;
+    bottom: 6%;
+    left: 8%;
+  }
+  .sections .list li a.require{
+    position: absolute;
+    width: 36%;
+    bottom: 6%;
+    right: 8%;
+  }
+ .sections .list li a img{
+    width: 100%;
+  }   
 .sec03{
   text-align: center;
   background: url(../images/top/bg-sp.jpg);
@@ -982,8 +1006,8 @@ img.circle{
     margin-bottom: 20px;
   }
   .btn-mini a{
-    font-size: 20px;
-    padding: 2z0px 0 20px;
+    font-size: 24px;
+    padding: 25px 0 20px;
     width: 100%;
     margin: auto;
   }
