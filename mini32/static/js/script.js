@@ -104,3 +104,11 @@ $(function() {
     $(".fixed-banner").fadeOut();
   });
 });
+
+$(function() {
+  $(".sidenav .close").on("click",function(){
+    $(window).off('scroll');
+    $(".sidenav").fadeOut();
+  });
+});
+
