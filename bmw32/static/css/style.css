@@ -258,13 +258,15 @@ main{
 
 @media (max-width: 768px) {
   .fixed-banner {
+    max-width: 320px;
     width: 90%;
     margin: auto;
-    bottom: 13%;
+    bottom: 12%;
     right: 0;
     left: 0;
   }
   .fixed-banner.bnr02 {
+    max-width: 320px;
     width: 90%;
     margin: auto;
     bottom: 3%;
