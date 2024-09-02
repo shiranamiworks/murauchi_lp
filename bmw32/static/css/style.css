@@ -229,10 +229,10 @@ main{
 
 .fixed-banner {
   position: fixed;
-  width: 210px;
+  width: 400px;
   height: auto;
-  bottom: 100px;
-  right: 1%;
+  bottom: 20%;
+  right: 20px;
   transform: translateY(-50%);
   z-index: 10000;
   transition: .5s;
@@ -248,9 +248,9 @@ main{
   display: block;
   cursor: pointer;
   position: absolute;
-  top: -20%;
-  right: 1%;
-  width: 10%;
+  top: -10%;
+  right: -4%;
+  width: 8%;
 }
 .fix-img{
   position: relative;
@@ -258,8 +258,23 @@ main{
 
 @media (max-width: 768px) {
   .fixed-banner {
-    width: 160px;
-    bottom: 100px;
+    width: 90%;
+    margin: auto;
+    bottom: 13%;
+    right: 0;
+    left: 0;
+  }
+  .fixed-banner.bnr02 {
+    width: 90%;
+    margin: auto;
+    bottom: 3%;
+    right: 0;
+    left: 0;
+  }
+  .fixed-banner .close {
+    top: 0;
+    right: 0;
+    width: 8%;
   }
 }
 
@@ -275,142 +290,293 @@ main{
 .main_visual img{
   width: 100%;
 }
+.main_visual .txt01{
+  max-width: 570px;
+  width: 40%;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.main_visual .txt02{
+  max-width: 467px;
+  width: 34%;
+  position: absolute;
+  left: 10%;
+  top: 52%;
+}
 
 .intro{
-  display: none;
   text-align: center;
-  background: #CE1111;
-  padding: 80px 0 100px;
-  color: #fff;
+  padding: 100px 0;
 }
-.intro .text{
-  font-size: 30px;
+.intro .logo{
+  max-width: 142px;
+  margin: 0 auto 20px;
+}
+.intro .txt01{
+  font-size: 27px;
   line-height: 1.6;
   margin-bottom: 20px;
 }
-.intro .text span{
-  font-size: 36px;
-}
-.intro .text .point{
-  font-size: 30px;
-  background-color: #fff;
-  color: #CE1111;
-  padding: 2px 10px 2px 20px;
-  border-radius: 25px;
-  font-weight: bold;
-  margin-right: 10px;
-}
-.intro .image{
-  max-width: 662px;
-  margin: auto;
-}
-
-.recommend {
-  display: none;
-  background: #CE1111;
-  text-align: center;
-  padding-bottom: 200px;
-}
-.recommend .bg{
-  max-width: 1260px;
-  width: 94%;
-  background: #fff;
-  padding: 100px 0;
-  margin: auto;
-}
-.recommend .title{
-  max-width: 400px;
-  margin: 0 auto 30px;
-}
-.recommend .tit{
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-.recommend .text{
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-.recommend .lead{
-  font-size: 15px;
-  line-height: 2;
-  margin-bottom: 100px;
-}
-.recommend .model{
-  margin-bottom: 80px;
-}
-.recommend .name{
-  font-size: 88px;
-  font-weight: bold;
-  color: #D9D9D9;
-  margin: 0 auto 10px;
-}
-.recommend .model .image{
-  max-width: 1100px;
-  width: 90%;
-  margin: 0 auto;
-}
-.recommend .model00 .image,
-.recommend .model01 .image,
-.recommend .model02 .image,
-.recommend .model03 .image{
-  max-width: 700px;
-  margin: 0 auto;
-}
-.recommend .model04 .image{
-  max-width: 360px;
-  margin: 0 auto;
-}
-.recommend .model06{
-  margin: auto;
-}
-.recommend .button-mini{
-  text-align: center;
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: bold;
-  margin-top: 30px;
-  color: #fff;
-}
-
-.btn-box{
-  display: none;
-  max-width: 910px;
-  margin: auto;
-  background: #FFF;
-  text-align: center;
-  padding: 100px 0;
-}
-.btn-box .button{
-  display: inline-block;
-  width: 48%;
-  margin-right: 2%;
-}
-.btn-box .button02{
-  margin-right: auto;
-}
-.button-text{
+.intro .txt02{
   font-size: 20px;
-  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+.intro .mini{
+  font-size: 20px;
+  line-height: 2;
+}
+.intro .mini span{
+  background: #FFD900;
+  padding: 4px 0 4px 4px;
+  box-sizing: border-box;
+  margin-right: 6px;
+}
+
+.bg {
+  background: #021288;
   text-align: center;
+  padding: 150px 0 100px;
+}
+.present .txt01{
+  max-width: 220px;
+  margin: 0 auto 20px;
+}
+.present .txt02,
+.present .txt03{
+  margin: 0 auto 20px;
+}
+.present .mini{
+  font-size: 10px;
+  line-height: 1.8;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 140px;
+}
+.animation_box {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  background: rgba(225, 225, 225, 0.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 20px 10px;
+  box-sizing: border-box;
   margin-bottom: 30px;
 }
-.button-mini{
-  text-align: left;
-  font-size: 12px;
-  line-height: 1.5;
-  font-weight: bold;
-  margin-top: 14px;
+.animation_box.box01,
+.animation_box.box02{
+  margin-right: 2%;
+}
+.fadeInDown01,
+.fadeInDown02,
+.fadeInDown03{
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+  visibility: visible !important;
+}
+.fadeInDown01{
+  -webkit-animation-name: fadeInDown01;
+  animation-name: fadeInDown01;
+}
+@keyframes fadeInDown01 {
+  0% {
+    transform: translate(-20%, -8%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.fadeInDown02{
+  -webkit-animation-name: fadeInDown02;
+  animation-name: fadeInDown02;
+}
+@keyframes fadeInDown02 {
+  0% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.fadeInDown03{
+  -webkit-animation-name: fadeInDown03;
+  animation-name: fadeInDown03;
+}
+@keyframes fadeInDown03 {
+  0% {
+    transform: translate(20%, 10%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
-.button {
+.present .anime-btn {
   display: inline-block;
-  max-width: 880px;
-  width: 90%;
+  width: 440px;
+  height: 74px;
   margin: auto;
+  position: relative;
+  background: url(../images/top/btn01.png);
+  background-size: cover;
+  transition: .3s;
+  opacity: 1;
+}
+.present .anime-btn::before{
+  content:"";
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: url(../images/top/btn01-hover.png);
+  background-size: cover;
+  z-index: 0;
+  transition: all .4s ease-out;
+}
+.present .anime-btn >span{
+  display: inline-block;
+  position: absolute;
+  width: 100%;
   text-align: center;
-  transition: .5s;
+  font-size: 28px;
+  font-weight: bold;
+  top:50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  z-index: 2;
+}
+.present .anime-btn:hover >span{
+  color: #fff;
+}
+.present .anime-btn:hover::before{
+  width: 100%;
+}
+
+.model{
+  color: #fff;
+}
+.model .txt01{
+  max-width: 180px;
+  margin: 0 auto 25px;
+}
+.model .txt02{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0 auto 40px;
+}
+.model .txt03{
+  font-size: 20px;
+  line-height: 2;
+  font-weight: bold;
+  margin: 0 auto 100px;
+}
+.model .txt03 span{
+  font-size: 30px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #FFD900;
+}
+
+.ebg{
+  margin-bottom: 50px;
+}
+.ebg svg {
+  margin: 0 auto;
+  opacity: 0;
+}
+.ebg.on svg {
+  margin: 0 auto;
+  opacity: 1;
+}
+.ebg.on  path {
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-dasharray: 0 0;
+  fill: rgba(255,255,255,1);
+  animation-name: obi;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+}
+@keyframes obi {
+  0% {
+    fill: rgba(255,255,255,0);
+    stroke-dasharray: 250 250;
+    stroke-opacity: 1;
+  }
+  30% {
+    fill: rgba(255,255,255,0);
+  stroke-opacity: 1;
+  stroke-dasharray: 0 250;
+  }
+  100% {
+    fill: rgba(255,255,255,1);
+    stroke-dasharray: 0 250;
+    stroke-opacity: 0;
+  }
+}
+.models{
+  margin-bottom: 140px;
+}
+.models .image{
+  margin-bottom: 50px;
+}
+.models .anime-btn {
+  display: inline-block;
+  width: 300px;
+  height: 74px;
+  margin: auto;
+  position: relative;
+  background: url(../images/top/btn02.png);
+  background-size: cover;
+  transition: .3s;
+  opacity: 1;
+}
+.models .anime-btn::before{
+  content:"";
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: url(../images/top/btn02-hover.png);
+  background-size: cover;
+  z-index: 0;
+  transition: all .4s ease-out;
+}
+.models .anime-btn >span{
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  top:50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  z-index: 2;
+}
+.models .anime-btn:hover >span{
+  color: #fff;
+}
+.models .anime-btn:hover::before{
+  width: 100%;
+}
+.model03{
+  margin-bottom: 80px;
+}
+.model .mini{
+  font-size: 10px;
+  line-height: 1.8;
 }
 
 h2{
@@ -448,7 +614,7 @@ h2{
   transition: width .65s .3s;
 }
 .inner01:after {
-  background: #cd0000;
+  background: #fff;
 }
 .inner02:after {
   background: #dfedf4;
@@ -541,10 +707,8 @@ h2{
 }
 
 .stores{
-  margin-top: 100px;
   background: #FFF;
-  border-top: 1px solid #000;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .stores .tit{
   font-size: 32px;
@@ -692,19 +856,6 @@ h2{
 }
 
 @media screen and (max-width:1024px) {
-  intro{
-    padding: 60px 0;
-  }
-  .recommend{
-    padding-bottom: 60px;
-  }
-  .recommend .bg{
-    padding: 60px 0;
-  }
-  .btn-box{
-    padding: 60px 0;
-  }
-
   .corporate .btn{
     margin: 20px 0 0 auto;
     padding: 20px 0;
@@ -802,63 +953,107 @@ h2{
 }
 
 @media screen and (max-width:768px) {
-.intro {
-  padding: 50px 0;
-}
-.intro .text{
-  font-size: 24px;
-}
-.intro .text span{
-  font-size: 30px;
-}
-.intro .text .point{
-  margin-right: auto;
-  font-size: 24px;
-}
-
-.recommend .title{
-  width: 80%;
-  margin: 0 auto 30px;
-}
-.recommend .lead{
-  margin-bottom: 50px;
-}
-.recommend .model{
-  margin-bottom: 40px;
-}
-.recommend .name{
-  font-size: 50px;
-}
-.recommend .model06{
-  margin: auto;
-}
-.recommend .model05 .image,
-.recommend .model06 .image{
-  width: 94%;
-  margin: 0 auto;
-}
-.recommend .model04 .image{
-  width: 90%;
-  max-width: none;
-  margin: 0 auto;
-}
+  .main_visual{
+    text-align: center;
+  }
+  .main_visual .txt01{
+    max-width: 570px;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+  }
+  .main_visual .txt02{
+    max-width: 400px;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+  }
     
-.btn-box .button{
-  display: block;
-  width: 90%;
-  margin: 0 auto 20px;
-}
-.btn-box .button02{
-  margin-bottom: auto;
-}
-.button-text{
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-.button-mini{
-  width: 90%;
-  margin: 14px auto 0;
-}
+  .intro{
+    text-align: left;
+    padding: 60px 0;
+  }
+  .intro .logo{
+    margin: 0 0 20px;
+  }
+  .bg {
+    padding: 100px 0 80px;
+  }
+  .present .txt02,
+  .present .txt03{
+    margin: 0 auto 20px;
+  }
+
+  .animation_box {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  @keyframes fadeInDown02 {
+    0% {
+      transform: translate(20%, 10%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes fadeInDown03 {
+    0% {
+      transform: translate(-20%, 20%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  .present .anime-btn {
+    display: block;
+    width: 80%;
+    height: 100%;
+    position: inherit;
+    background: none;
+    opacity: 1;
+  }
+  .present .anime-btn >span{
+    display: none;
+  }
+  .present .mini{
+    text-align: left;
+    margin-bottom: 80px;
+  }
+
+  .model .txt02{
+    line-height: 1.2;
+    margin: 0 auto 30px;
+  }
+  .models{
+    margin-bottom: 80px;
+  }
+  .models .image{
+    margin-bottom: 50px;
+  }
+  .models .anime-btn {
+    display: block;
+    width: 80%;
+    height: 100%;
+    position: inherit;
+    background: none;
+    opacity: 1;
+  }
+  .models .anime-btn >span{
+    display: none;
+  }
+  .model03{
+    margin-bottom: 50px;
+  }
+  .model .mini{
+    text-align: left;
+  }
     
   .corporate li{
     display: block;
@@ -931,6 +1126,10 @@ h2{
     padding: 23px 0 20px;
     width: 100%;
     margin: auto;
+  }
+    
+  .corporate{
+    padding: 80px 0 0;
   }
 }
 
