@@ -258,18 +258,18 @@ main{
 
 @media (max-width: 768px) {
   .fixed-banner {
-    max-width: 320px;
-    width: 90%;
+    max-width: 400px;
+    width: 94%;
     margin: auto;
-    bottom: 12%;
+    bottom: 18%;
     right: 0;
     left: 0;
   }
   .fixed-banner.bnr02 {
-    max-width: 320px;
-    width: 90%;
+    max-width: 400px;
+    width: 94%;
     margin: auto;
-    bottom: 3%;
+    bottom: 5%;
     right: 0;
     left: 0;
   }
@@ -360,8 +360,10 @@ main{
   display: inline-block;
   vertical-align: top;
   width: 25%;
+/*
   background: rgba(225, 225, 225, 0.1);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+*/
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   padding: 20px 10px;
@@ -643,21 +645,27 @@ h2{
 .facebook .icon img{
   width: 72px;
 }
+.facebook .insta img{
+  width: 440px;
+}
 .facebook .list{
   margin: auto;
   width: 90%;
   max-width: 1600px;
 }
 .facebook li{
-  float: left;
-  width: 32%;
-  margin-right: 18%;
+  display: inline-block;
+  width: 47%;
+  margin-right: 2%;
+vertical-align: top;
 }
+/*
 .facebook li:last-child{
   float: right;
   width: 50%;
   margin-right: auto;
 }
+*/
 .facebook li .logo img{
   width: 100%;
   max-width: 72px;
@@ -1080,8 +1088,8 @@ h2{
   }
   .facebook li .text{
     text-align: left;
-    font-size: 12px;
-    margin-bottom: 6px;
+    font-size: 13px;
+    margin-bottom: 15px;
   }
 
   .stores{
