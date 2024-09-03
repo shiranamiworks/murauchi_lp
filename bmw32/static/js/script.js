@@ -81,7 +81,7 @@ $(function() {
     var bannerBtn = $('.fixed-banner.pc');
     bannerBtn.hide();
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 50) {
             bannerBtn.fadeIn();
         } else {
             bannerBtn.fadeOut();
