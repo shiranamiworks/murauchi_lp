@@ -655,17 +655,13 @@ h2{
 }
 .facebook li{
   display: inline-block;
-  width: 47%;
-  margin-right: 2%;
+  width: 40%;
+  margin-right: 15%;
 vertical-align: top;
 }
-/*
 .facebook li:last-child{
-  float: right;
-  width: 50%;
   margin-right: auto;
 }
-*/
 .facebook li .logo img{
   width: 100%;
   max-width: 72px;
