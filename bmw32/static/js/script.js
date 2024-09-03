@@ -78,7 +78,7 @@ $(function () {
 });
 
 $(function() {
-    var bannerBtn = $('.fixed-banner');
+    var bannerBtn = $('.fixed-banner.pc');
     bannerBtn.hide();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -114,7 +114,7 @@ window.addEventListener("scroll", function () {
   const elm = document.querySelector(".fixed-banner");
   if(!elm) return;
   const scroll = window.pageYOffset;
-  if (scroll > 400) {
+  if (scroll > 50) {
     elm.style.opacity = "1";
   } else {
     elm.style.opacity = "0";
@@ -125,7 +125,7 @@ window.addEventListener("scroll", function () {
   const elm = document.querySelector(".fixed-banner.bnr02");
   if(!elm) return;
   const scroll = window.pageYOffset;
-  if (scroll > 400) {
+  if (scroll > 50) {
     elm.style.opacity = "1";
   } else {
     elm.style.opacity = "0";

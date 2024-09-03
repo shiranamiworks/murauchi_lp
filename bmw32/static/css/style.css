@@ -229,9 +229,9 @@ main{
 
 .fixed-banner {
   position: fixed;
-  width: 400px;
+  width: 300px;
   height: auto;
-  bottom: 20%;
+  bottom: 120px;
   right: 20px;
   transform: translateY(-50%);
   z-index: 10000;
@@ -258,25 +258,29 @@ main{
 
 @media (max-width: 768px) {
   .fixed-banner {
-    max-width: 400px;
-    width: 94%;
+    max-width: 200px;
+    width: 40%;
     margin: auto;
-    bottom: 18%;
-    right: 0;
-    left: 0;
+    bottom: 10px;
+    right: auto;
+    left: 10px;
+    opacity: 1;
+    transform: translateY(0);
   }
   .fixed-banner.bnr02 {
-    max-width: 400px;
-    width: 94%;
+    max-width: 200px;
+    width: 40%;
     margin: auto;
-    bottom: 5%;
-    right: 0;
-    left: 0;
+    bottom: 10px;
+    right: auto;
+    left: 45%;
+    opacity: 1;
+    transform: translateY(0);
   }
   .fixed-banner .close {
-    top: 0;
-    right: 0;
-    width: 8%;
+    top: 5%;
+    right: 5%;
+    width: 15%;
   }
 }
 
@@ -312,8 +316,8 @@ main{
   padding: 100px 0;
 }
 .intro .logo{
-  max-width: 142px;
-  margin: 0 auto 20px;
+  max-width: 100px;
+  margin-right: 20px;
 }
 .intro .txt01{
   font-size: 27px;
@@ -983,10 +987,18 @@ vertical-align: top;
     
   .intro{
     text-align: left;
-    padding: 60px 0;
+    padding: 30px 0;
   }
   .intro .logo{
-    margin: 0 0 20px;
+    max-width: 142px;
+    margin: 0 auto 10px;
+  }
+  .intro .txt01{
+    font-size: 18px;
+    text-align: center;
+  }
+  .intro .txt02{
+    font-size: 16px;  
   }
   .bg {
     padding: 100px 0 80px;
@@ -1168,7 +1180,8 @@ footer .image{
     padding: 20px 0;
   }
   .page-top {
-    bottom: 20px;
+    bottom: 10px;
+    right: 10px;
   }
 }
 
