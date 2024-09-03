@@ -231,7 +231,7 @@ main{
   position: fixed;
   width: 300px;
   height: auto;
-  bottom: 120px;
+  bottom: 140px;
   right: 20px;
   transform: translateY(-50%);
   z-index: 10000;
@@ -239,7 +239,7 @@ main{
   opacity: 0;
 }
 .fixed-banner.bnr02{
-  bottom: 0;
+  bottom: 20px;
 }
 .fixed-banner img {
   display: block;
