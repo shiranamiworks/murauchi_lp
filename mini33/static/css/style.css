@@ -223,7 +223,7 @@ End-responsible-contents  only-pc
 .fix_navi {
   position: fixed;
   width: 100%;
-  top: 50%;
+  top: 60%;
   right: 0;
   z-index: 10;
 }
@@ -392,7 +392,7 @@ End-responsible-contents  only-pc
 }
 .intro .text02 span{
   font-size: 28px;
-  background: #D7892F;
+  background: #d78a30;
   color: #fff;
   padding: 10px 8px 4px;
   box-sizing: border-box;
@@ -1120,7 +1120,7 @@ img.circle{
   display: block;
   width: 40px;
   bottom: 30px;
-  right: 30px;
+  right: 15px;
   z-index: 9;
 }
 
@@ -1130,7 +1130,7 @@ img.circle{
     margin: 0 auto 180px;
   }
   .page-top {
-    bottom: 20px;
+    bottom: 15px;
   }
 }
 
