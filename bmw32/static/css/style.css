@@ -297,11 +297,11 @@ main{
   width: 100%;
 }
 .main_visual .txt01{
-  max-width: 570px;
-  width: 40%;
+  max-width: 1250px;
+  width: 78%;
   position: absolute;
-  left: 10%;
-  top: 20%;
+  left: 16%;
+  top: 15%;
 }
 .main_visual .txt02{
   max-width: 467px;
@@ -969,12 +969,12 @@ vertical-align: top;
   }
   .main_visual .txt01{
     max-width: 570px;
-    width: 80%;
+    width: 94%;
     margin: auto;
     position: absolute;
     left: 0;
     right: 0;
-    top: 20%;
+    top: 22%;
   }
   .main_visual .txt02{
     max-width: 400px;
