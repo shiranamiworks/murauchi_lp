@@ -1,0 +1,26 @@
+<svg id="グループ_1" data-name="グループ 1" xmlns="http://www.w3.org/2000/svg" width="542" height="112" viewBox="0 0 542 112">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #69c9f1;
+        font-family: MotoyaAporoStd-W3, "Motoya Aporo Std";
+      }
+
+      .cls-2 {
+        fill: #003016;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        font-size: 33px;
+      }
+    </style>
+  </defs>
+  <text id="選べるご成約プレゼント" class="cls-1" x="-1.359" y="108.117">選べるご成約プレゼント</text>
+  <path id="長方形_536" data-name="長方形 536" class="cls-2" d="M0-.092H289.121V45H0V-0.092Z"/>
+  <text id="要事前エントリー" class="cls-3" transform="translate(8.88 35.328) scale(1.051 1.049)">要事前エントリー</text>
+</svg>
