@@ -124,4 +124,21 @@ $(function() {
   });
 });
 
+//ポップアップバナー
+$(function(){
+  $(window).on("scroll", function ($) {
+	if (jQuery(this).scrollTop() > 300) {
+		jQuery('.popup').fadeIn(1000);
+	} else {
+		jQuery('.popup').hide();
+	}
+});
+
+//ポップアップバナーの閉じるボタンがクリックされた場合の処理
+$('.popup-close').on('click', function () {
+    $('.popup').addClass('hidden');
+});
+});
+
+
 
