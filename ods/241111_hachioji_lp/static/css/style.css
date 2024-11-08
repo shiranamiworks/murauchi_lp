@@ -75,7 +75,7 @@ button {
   font-weight: 400;
 }
 p{
-  color: #436748;
+  color: #333;
 }
 body {
   min-width: 320px;
@@ -84,7 +84,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.214;
-  color: #436748;
+  color: #333;
 }
 h1,h2,h3,h4,h5,h6 {
   font-size: 100%;
@@ -187,7 +187,6 @@ End-responsible-contents  only-pc
 .wrap {
   position: relative;
   margin: 0 auto;
-  width: 90%;
   max-width: 1200px;
 }
 .js-scroll {
@@ -208,6 +207,7 @@ End-responsible-contents  only-pc
 }
 .main-visual{
   position: relative;
+  margin-bottom: 60px;
 }
 .main-visual img{
   width: 100%;
@@ -217,13 +217,10 @@ End-responsible-contents  only-pc
   text-align: center;
   margin-bottom: 60px;
 }
-.intro .image{
-  margin-bottom: 60px;
-}
 .intro .text{
+  text-align: left;
   font-size: 26px;
   line-height: 1.6;
-  color: #436748;
 }
 
 .present{
@@ -231,119 +228,63 @@ End-responsible-contents  only-pc
   margin-bottom: 60px;
 }
 .present .obi{
-  margin-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto 30px;
+}
+.present .img-txt{
+  text-align: left;
+  width: 60%;
+  margin: 0 0 30px;
+}
+.present ul{
+  text-align: left;
+  margin-top: 30px;
 }
 .present li{
-  vertical-align: middle;
+  vertical-align: top;
   display: inline-block;
-  width: 25%;
-  margin-right: 4%;
+  width: 82%;
+  margin-right: 2%;
 }
 .present li:last-child{
-  text-align: left;
-  width: 42%;
+  width: 15%;
   margin-right: auto;
 }
-.present .text{
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-.present .lead{
-  font-size: 18px;
+.present .mini{
+  font-size: 14px;
   line-height: 1.8;
-  margin-bottom: 10px;
-}
-.present .info{
-  font-size: 12px;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
-.present .caps{
-  font-size: 11px;
-  line-height: 1.6;
 }
 
 .lineup{
   text-align: center;
 }
-.animation_box {
-  display: inline-block;
-  width: 33%;
-  margin-bottom: 6px;
+.lineup .obi{
+  max-width: 1200px;
+  margin: 0 auto 30px;
 }
-.fadeInDown01,
-.fadeInDown02,
-.fadeInDown03{
-  -webkit-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-duration: 1s;
-  -ms-animation-duration: 1s;
-  animation-duration: 1s;
-  visibility: visible !important;
+.lineup .texts{
+  max-width: 900px;
+  margin: 0 auto 20px;
 }
-.fadeInDown01{
-  -webkit-animation-name: fadeInDown01;
-  animation-name: fadeInDown01;
-}
-@keyframes fadeInDown01 {
-  0% {
-    transform: translate(-20%, -8%);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-.fadeInDown02{
-  -webkit-animation-name: fadeInDown02;
-  animation-name: fadeInDown02;
-}
-@keyframes fadeInDown02 {
-  0% {
-    transform: translateY(20%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-.fadeInDown03{
-  -webkit-animation-name: fadeInDown03;
-  animation-name: fadeInDown03;
-}
-@keyframes fadeInDown03 {
-  0% {
-    transform: translate(20%, 10%);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-.buttons{
-  text-align: center;
-  padding: 60px 0 100px;
-}
-.buttons .text{
-  font-size: 24px;
-  padding: 20px 0;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+.lineup .txt01{
+  font-size: 54px;
+  font-weight: 700;
+  color: #1a9507;
+  padding: 10px 0;
+  border-top: 6px solid;
+  border-bottom: 6px solid;
   margin-bottom: 20px;
 }
-.buttons .caps{
-  font-size: 14px;
-  line-height: 1.6;
-  margin-bottom: 40px;
+.lineup .txt02{
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.4;
 }
-.buttons li{
-  display: inline-block;
-  width: 47%;
-  margin-right: 4%;
+.lineup .btn{
+  max-width: 642px;
+  margin: 30px auto 50px;
 }
-.buttons li:last-child{
-  margin-right: auto;
-}
+
 .btns{
   text-align: center;
   max-width: 398px;
@@ -373,19 +314,8 @@ End-responsible-contents  only-pc
   top: 22px;
   right: 30px;
 }
-.btn-mini a{
-  display: block;
-  background: #436748;
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 10px;
-  padding: 25px 0 22px;
-  max-width: 300px;
+.btn-mini{
   width: 80%;
-  margin: auto;
-  text-align: center;
-  box-shadow: 10px 10px 10px rgba(0,0,0,.4);
 }
 
 .shiny-btn2 {
@@ -423,6 +353,8 @@ End-responsible-contents  only-pc
 .stores{
   position: relative;
   background: #fff;
+  padding-top: 30px;
+  border-top: 2px solid #000;
 }
 .stores h2{
   font-size: 30px;
@@ -483,7 +415,7 @@ End-responsible-contents  only-pc
 .map {
   position: relative;
   width: 100%;
-  padding-top: 60%; /* = height ÷ width × 100 */
+  /*padding-top: 60%;  = height ÷ width × 100 */
   margin-top: 20px;
 }
 .map iframe {
