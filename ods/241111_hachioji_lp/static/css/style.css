@@ -283,7 +283,7 @@ End-responsible-contents  only-pc
 }
 .lineup .btn{
   max-width: 642px;
-  margin: 30px auto 50px;
+  margin: 30px auto 100px;
 }
 
 .btns{
@@ -315,8 +315,12 @@ End-responsible-contents  only-pc
   top: 22px;
   right: 30px;
 }
-.btn-mini{
-  width: 80%;
+.btn-mini .shop{
+  width: 75%;
+  margin-right: 2%;
+}
+.btn-mini .insta{
+  max-width: 60px;
 }
 
 .shiny-btn2 {
@@ -372,16 +376,16 @@ End-responsible-contents  only-pc
   font-size: 14px;
 }
 .store-list{
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 .store-list li{
-  vertical-align: text-top;
+  vertical-align: middle;
   display: inline-block;
-  width: 29.2%;
+  width: 32.2%;
   margin-right: 2%;
 }
-.store-list li:nth-child(2){
-  width: 36.2%;
+.store-list li:first-child{
+  width: 30.2%;
 }
 .store-list li:last-child{
   margin-right: auto;
@@ -420,7 +424,7 @@ End-responsible-contents  only-pc
   position: relative;
   width: 100%;
   /*padding-top: 60%;  = height ÷ width × 100 */
-  margin-top: 20px;
+/*  margin-top: 20px;*/
 }
 .map iframe {
   position: absolute;
@@ -459,7 +463,7 @@ End-responsible-contents  only-pc
 
   .fixed-banner {
     position: fixed;
-    width: 360px;
+    width: 320px;
     bottom: 0;
     right: 1%;
     transform: translateY(-50%);
@@ -472,9 +476,9 @@ End-responsible-contents  only-pc
    display: block;
    cursor: pointer;
    position: absolute;
-   width: 43px;
+   width: 26px;
    right: 0;
-   top: -43px;
+   top: 0;
   }
 
 
@@ -497,7 +501,7 @@ End-responsible-contents  only-pc
     width: 80%;
     margin: 0 auto 20px;
   }
-  .store-list li:nth-child(2){
+  .store-list li:first-child{
     width: 80%;
   }
   .store-list .btn-mini a{
@@ -528,6 +532,9 @@ End-responsible-contents  only-pc
 
 
 @media screen and (max-width:768px) {
+  .main-visual {
+    margin-bottom: 30px;
+  }
   .intro{
     text-align: center;
     margin-bottom: 30px;
@@ -580,6 +587,9 @@ End-responsible-contents  only-pc
   }
   .lineup .txt02{
     font-size: 15px;
+  }
+  .lineup .btn{
+    margin: 30px auto 50px;
   }
     
   .animation_box {
@@ -644,7 +654,7 @@ End-responsible-contents  only-pc
   .store-list li{
     width: 100%;
   }
-  .store-list li:nth-child(2){
+  .store-list li:first-child{
     width: 100%;
   }
   .store-list .name{
@@ -714,7 +724,7 @@ footer a{
     margin: 0 auto;
   }
   .page-top {
-    bottom: 93px;
+    bottom: 100px;
     right: 15px;
   }
 }
