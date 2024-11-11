@@ -188,6 +188,7 @@ End-responsible-contents  only-pc
   position: relative;
   margin: 0 auto;
   max-width: 1200px;
+  width: 94%;
 }
 .js-scroll {
   transform: translateY(10px);
@@ -360,6 +361,9 @@ End-responsible-contents  only-pc
   font-size: 30px;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+.stores h2 a{
+  color: #000;
 }
 .stores h2 .mini{
   font-size: 24px;
@@ -543,9 +547,13 @@ End-responsible-contents  only-pc
   .present .obi{
     margin-bottom: 30px;
   }
+  .present .img-txt{
+    width: 80%;
+    margin: 0 auto 30px;
+  }
   .present li{
     display: block;
-    width: 70%;
+    width: 100%;
     margin: auto;
   }
   .present li .bag{
@@ -553,7 +561,7 @@ End-responsible-contents  only-pc
     margin: 0 auto 20px;
   }
   .present li:last-child{
-    width: 100%;
+    width: 65%;
     margin-top: 20px;
   }
   .present .text{
@@ -562,6 +570,16 @@ End-responsible-contents  only-pc
   }
   .present .lead{
     font-size: 16px;
+  }
+  .present .mini{
+    font-size: 12px;
+  }
+    
+  .lineup .txt01{
+    font-size: 36px;
+  }
+  .lineup .txt02{
+    font-size: 15px;
   }
     
   .animation_box {
