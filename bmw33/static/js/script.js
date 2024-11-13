@@ -131,3 +131,49 @@ window.addEventListener("scroll", function () {
     elm.style.opacity = "0";
   }
 });
+
+$(function () {
+  $(window).scroll(function () {
+    $('.animetion').each(function () {
+      var elemPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > elemPos - windowHeight) {
+        $(this).addClass('active');
+      } else {
+        $(this).removeClass('active');
+      }
+    });
+  });
+});
+$(function () {
+  $(window).scroll(function () {
+    $('.animetion-left').each(function () {
+      var elemPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > elemPos - windowHeight) {
+        $(this).addClass('active');
+      } else {
+        $(this).removeClass('active');
+      }
+    });
+  });
+});
+
+$(function(){
+  var setAnim = $('.animate');
+  $(window).on('scroll resize',function(){
+    var setHeight = 300;
+    setAnim.each(function(){
+      var setThis = $(this),
+          setElm = $(this).find('.animate-elm');
+      elmTop = setThis.offset().top,
+      scrTop = $(window).scrollTop(),
+      winHeight = $(window).height();
+      if (scrTop > elmTop - winHeight + setHeight){
+        setElm.addClass('show');
+      }
+    });
+  });
+});

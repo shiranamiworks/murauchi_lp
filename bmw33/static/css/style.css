@@ -19,6 +19,7 @@
   font-family: "BMW Type Next Light";
   src: url("../font/BMWTypeNextLatinTT-Light.woff") format("woff");
 }
+
 /*----------------------------
   reset
 ----------------------------*/
@@ -296,28 +297,128 @@ main{
 .main_visual img{
   width: 100%;
 }
-.main_visual .txt01{
-  max-width: 1250px;
+.main_visual .mv-txt{
+  max-width: 1048px;
   width: 78%;
   position: absolute;
-  left: 16%;
-  top: 15%;
+  left: 0;
+  bottom: 0;
 }
-.main_visual .txt02{
-  max-width: 467px;
-  width: 34%;
+
+.animetion {
+  opacity: 0;
+  z-index: 0;
+}
+.animetion.active {
+  opacity: 1;
+  animation: 1s fadeup cubic-bezier(0.9, 0.54, 0, 0.83);
+}
+@keyframes fadeup {
+  0% {
+    opacity: .7;
+    transform: translateY(40%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animetion-left {
+  opacity: 0;
+  padding-bottom: 100px;
+}
+.animetion-left.active {
+  opacity: 1;
+  animation: 1s fadeleft cubic-bezier(0.9, 0.54, 0, 0.83);
+}
+@keyframes fadeleft {
+  0% {
+    opacity: 1;
+    transform: translateX(-20%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+.overlay,
+.animate-elm.-max-width:before,
+.animate-elm.-transform:before {
+  background-color: #fff;
   position: absolute;
-  left: 10%;
-  top: 52%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  transition: 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
+
+.overlay-max-width,
+.animate-elm.-max-width:before {
+  max-width: 100%;
+}
+
+.overlay-transform,
+.animate-elm.-transform:before {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.animate-elm {
+  margin: 0 auto;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.animate-elm.-max-width:before,
+.animate-elm.-transform:before {
+  content: "";
+}
+
+.animate-elm.show.-max-width:before,
+.animate-elm.show .overlay-max-width {
+  max-width: 0;
+}
+
+.animate-elm.show.-transform:before,
+.animate-elm.show .overlay-transform {
+  -webkit-transform: translateX(101%);
+          transform: translateX(101%);
+}
+
+@media only screen and (min-width: 769px) {
+  .animate-elm {
+    height: 400px;
+  }
+}
+
+
+
+
+
+
+
 
 .intro{
   text-align: center;
   padding: 100px 0;
 }
 .intro .logo{
-  max-width: 100px;
-  margin-right: 20px;
+  max-width: 142px;
+  margin: 0 auto 20px;
+}
+.intro .obi{
+  margin-bottom: 30px;
 }
 .intro .txt01{
   font-size: 27px;
@@ -325,20 +426,32 @@ main{
   margin-bottom: 20px;
 }
 .intro .txt02{
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.6;
-  margin-bottom: 60px;
 }
-.intro .mini{
-  font-size: 20px;
-  line-height: 2;
+
+.model{
+  margin-bottom: 150px;
 }
-.intro .mini span{
-  background: #FFD900;
-  padding: 4px 0 4px 4px;
-  box-sizing: border-box;
-  margin-right: 6px;
+.model .list{
+  display: flex;
+  align-items:stretch;
+  justify-content: space-between;
 }
+.model .list li{
+  position: relative;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 4%;
+}
+.model .list li:nth-child(3n){
+  margin-right: auto;
+}
+.model .list .car-img{
+  position: absolute;
+  top: 20px;
+}
+
 
 .bg {
   background: #021288;
