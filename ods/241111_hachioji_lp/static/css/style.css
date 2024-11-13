@@ -668,7 +668,7 @@ End-responsible-contents  only-pc
     margin-bottom: 30px;
   }
   .annotation{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 /*
@@ -680,7 +680,7 @@ footer {
   position: relative;
   background: #fff;
   width: 100%;
-  padding: 20px 0 0;
+  padding: 20px 0 100px;
   text-align: center;
 }
 footer .image{
@@ -720,7 +720,6 @@ footer a{
   }
   footer{
     width:100%;
-    padding-bottom: 20px;
     margin: 0 auto;
   }
   .page-top {
