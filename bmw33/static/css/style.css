@@ -307,7 +307,6 @@ main{
 
 .animetion {
   opacity: 0;
-  z-index: 0;
 }
 .animetion.active {
   opacity: 1;
@@ -315,7 +314,7 @@ main{
 }
 @keyframes fadeup {
   0% {
-    opacity: .7;
+    opacity: 1;
     transform: translateY(40%);
   }
 
@@ -324,26 +323,6 @@ main{
     transform: translateY(0);
   }
 }
-.animetion-left {
-  opacity: 0;
-  padding-bottom: 100px;
-}
-.animetion-left.active {
-  opacity: 1;
-  animation: 1s fadeleft cubic-bezier(0.9, 0.54, 0, 0.83);
-}
-@keyframes fadeleft {
-  0% {
-    opacity: 1;
-    transform: translateX(-20%);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
 
 .overlay,
 .animate-elm.-transform:before {
@@ -377,14 +356,8 @@ main{
 .animate-elm.show.-transform:before,
 .animate-elm.show .overlay-transform {
   -webkit-transform: translateX(101%);
-          transform: translateX(101%);
+  transform: translateX(101%);
 }
-
-
-
-
-
-
 
 .intro{
   text-align: center;
@@ -408,6 +381,7 @@ main{
 }
 
 .model{
+  text-align: center;
   margin-bottom: 150px;
 }
 .model .list{
@@ -430,38 +404,20 @@ main{
   top: 20px;
   z-index: 2;
 }
-
-.bg-img {
-  position: relative;
-  width: 100%;
-  height: auto;
+.btn{
+  max-width: 770px;
+  margin: auto;
 }
-.bg-img::after {
-  content: "";
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 100%;
-  bottom: 0;
+.btn a{
+  background: #1C69D4;
+  border-radius: 3px;
+  padding: 6px 0;
+  display: block;
+  transition: .3s;
 }
-.bg-img.anime::after {
-  content: "";
-  background-color: #fff;
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: auto;
-  bottom: 0;
-  animation: fadeout cubic-bezier(0.9, 0.54, 0, 0.83) 1s;
-}
-@keyframes fadeout {
-  0% {
-    height: 100%;
-  }
-  100% {
-    height: 0;
-  }
+.btn a:hover{
+  opacity: 1;
+  background: #0653B6;
 }
 
 .bg {

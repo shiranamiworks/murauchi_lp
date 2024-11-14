@@ -177,14 +177,3 @@ $(function(){
     });
   });
 });
-
-$(function () {
-  $(window).on("resize load scroll", function () {
-    const ws = $(this).scrollTop() + ($(this).height() / 3) * 2;
-    $(".bg-img").each(function () {
-      if ($(this).offset().top < ws) {
-        $(this).addClass("anime");
-      }
-    });
-  });
-});
