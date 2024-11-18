@@ -326,17 +326,32 @@ End-responsible-contents  only-pc
 }
 
 .sec01{
-  margin: 100px auto;
+  margin: 100px auto 0;
 }
 .wrapper{
   display: flex;
   justify-content: space-between;
   position: relative;
+  background: #fff;
 }
-.texts{ width: 50vw; }
-.texts div{ padding-top: 50vh; }
-.texts div:last-child{ padding-bottom: 50vh; }
-/*画像のブロック*/
+.texts{
+  width: 50vw;
+}
+.texts div{
+  width: 50%;
+  margin: auto;
+}
+.texts div:last-child{
+  padding-bottom: 10vh;
+}
+.texts div .txt{
+  margin: 20px 0 100px;
+}
+.texts .scroll-box02,
+.texts .scroll-box03{
+  padding-top: 50rem;
+  margin-top: -50rem;
+}
 .images{
 	width: 50vw;
 	height: 0;
@@ -362,7 +377,6 @@ End-responsible-contents  only-pc
 	visibility: visible;
 	opacity: 1;
 }
-
 
 
 
