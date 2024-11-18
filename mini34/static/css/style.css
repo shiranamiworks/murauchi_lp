@@ -314,7 +314,6 @@ End-responsible-contents  only-pc
 
 .main-visual{
   position: relative;
-  margin-bottom: 100px;
 }
 .image{
   position: relative;
@@ -326,35 +325,46 @@ End-responsible-contents  only-pc
   margin: auto;
 }
 
-.intro{
-  display: none;
-  text-align: center;
-  padding: 100px 0;
+.sec01{
+  margin: 100px auto;
 }
-.intro .text01{
-  font-size: 30px;
-  line-height: 2;
-  margin-bottom: 20px;
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
-.intro .day{
-  font-size: 30px;
-  margin-bottom: 60px;
+.texts{ width: 50vw; }
+.texts div{ padding-top: 50vh; }
+.texts div:last-child{ padding-bottom: 50vh; }
+/*画像のブロック*/
+.images{
+	width: 50vw;
+	height: 0;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	position: -webkit-sticky;
+	top:0;
 }
-.intro .day span{
-  font-size: 36px;
+.images p {
+	height: 100vh;
+	margin: auto;
+	display: block;
+	visibility: hidden;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	transition: .8s;
+	opacity: 0;
 }
-.intro .text02{
-  font-size: 24px;
-  line-height: 2;
+.images p:first-child,
+.images p.active {
+	visibility: visible;
+	opacity: 1;
 }
-.intro .text02 span{
-  font-size: 28px;
-  background: #d78a30;
-  color: #fff;
-  padding: 10px 8px 4px;
-  box-sizing: border-box;
-  margin: 0 6px;
-}
+
+
+
 
 
 
@@ -365,6 +375,7 @@ End-responsible-contents  only-pc
   color: #fff;
   background: #ED5700;
   padding: 100px 0 60px;
+  position: relative;
 }
 .sec02 .wrap{
   max-width: 1000px;

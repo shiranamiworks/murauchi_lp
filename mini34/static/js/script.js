@@ -112,3 +112,18 @@ $(function() {
   });
 });
 
+
+$(function(){
+	$(window).scroll(function () {
+		$('.texts div').each(function () {
+			boxNum = $(this).attr("class"),
+			scrollTop = $(window).scrollTop();
+			areaTop = $(this).offset().top;
+			if (scrollTop > areaTop) {
+				$('.images .' + boxNum).addClass('active');
+			} else{
+				$('.images .' + boxNum).removeClass('active');
+			}
+		});
+	});
+});
