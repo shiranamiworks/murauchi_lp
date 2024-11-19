@@ -8,28 +8,14 @@ $(function(){
   });
 });
 
-$(function() {
-  if (window.matchMedia('(max-width: 767px)').matches) {
-    $('.main-visual .mv02')
-      .animate({'width':'70%','opacity':'0'}, 1000)
-      .animate({'width': '96%','opacity':'1'}, 1800);
-    $('.main-visual .mv03')
-      .animate({'opacity':'0'}, 3500)
-      .animate({'opacity':'1'}, 10);
-    $('.main-visual .mv04')
-      .animate({'width':'70%','opacity':'0'}, 5000)
-      .animate({'width': '97%','opacity':'1'}, 1800);
-  }else if (window.matchMedia('(min-width:768px)').matches) {
-  $('.main-visual .mv02')
-      .animate({'width':'40%','opacity':'0'}, 1000)
-      .animate({'width': '47%','opacity':'1'}, 1600);
-  $('.main-visual .mv03')
-      .animate({'opacity':'0'}, 3500)
-      .animate({'opacity':'1'}, 10);
-  $('.main-visual .mv04')
-      .animate({'width':'40%','opacity':'0'}, 5000)
-      .animate({'width': '47%','opacity':'1'}, 1600);
-  }
+$(function(){
+$('.main-visual .mv01')
+    .animate({'opacity':'1'}, 1600)
+    .animate({'opacity': '0'}, 800);
+    
+$('.main-contents')
+    .animate({'top':'0'}, 2400)
+    .animate({'opacity':'1'}, 2000);
 });
 
 $(function(){

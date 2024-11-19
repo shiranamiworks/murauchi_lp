@@ -9,6 +9,18 @@ $('.store-list .slider').slick({
 });
 
 $(function(){
+$('.mv-txt.pc')
+    .animate({'bottom':'12%'}, 1000)
+    .animate({'opacity':'1'}, 800);
+});
+$(function(){
+$('.mv-txt.sp')
+    .animate({'bottom':'8%'}, 1000)
+    .animate({'opacity':'1'}, 800);
+});
+
+
+$(function(){
   if($("#top").length){
     $(window).on("scroll resize",function(){
       var _ws = $(this).scrollTop();
@@ -146,20 +158,7 @@ $(function () {
     });
   });
 });
-$(function () {
-  $(window).scroll(function () {
-    $('.animetion-left').each(function () {
-      var elemPos = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll > elemPos - windowHeight) {
-        $(this).addClass('active');
-      } else {
-        $(this).removeClass('active');
-      }
-    });
-  });
-});
+
 
 $(function(){
   var setAnim = $('.animate');
@@ -198,5 +197,16 @@ $(function(){
         }
       }
     ]
+  });
+});
+
+$(function () {
+  $(window).on("resize load scroll", function () {
+    const ws = $(this).scrollTop() + ($(this).height() / 3) * 2;
+    $(".open-bg").each(function () {
+      if ($(this).offset().top < ws) {
+        $(this).addClass("anime");
+      }
+    });
   });
 });
