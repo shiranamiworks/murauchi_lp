@@ -461,7 +461,7 @@ main{
   display: flex;
   align-items:stretch;
   justify-content: space-between;
-  padding-bottom: 160px;
+  padding-bottom: 200px;
 }
 .model .list li{
   position: relative;
@@ -477,6 +477,25 @@ main{
   top: 20px;
   z-index: 2;
 }
+.model .list .btn{
+  position: absolute;
+  top: 350px;
+  max-width: 340px;
+  margin: auto;
+}
+.model .list .btn a{
+  background: #000;
+  border-radius: 3px;
+  padding: 15px 30px;
+  display: block;
+  transition: .3s;
+}
+.model .list .btn a:hover{
+  opacity: 1;
+  background: #4D4D4D;
+}
+
+
 .btn{
   max-width: 770px;
   margin: auto;
@@ -650,8 +669,8 @@ h2{
 }
 .facebook li{
   display: inline-block;
-  width: 40%;
-  margin-right: 15%;
+  width: 46%;
+  margin-right: 7%;
 vertical-align: top;
 }
 .facebook li:last-child{
@@ -1014,7 +1033,7 @@ vertical-align: top;
 .model .list li{
   max-width: 380px;
   width: 100%;
-  margin: 0 auto 120px;
+  margin: 0 auto 180px;
 }
 .model .list .car-img{
   position: absolute;
