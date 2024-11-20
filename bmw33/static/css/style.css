@@ -461,7 +461,7 @@ main{
   display: flex;
   align-items:stretch;
   justify-content: space-between;
-  padding-bottom: 200px;
+  padding-bottom: 20%;
 }
 .model .list li{
   position: relative;
@@ -478,10 +478,7 @@ main{
   z-index: 2;
 }
 .model .list .btn{
-  position: absolute;
-  top: 350px;
-  max-width: 340px;
-  margin: auto;
+ margin: 70px auto;
 }
 .model .list .btn a{
   background: #000;
@@ -881,7 +878,7 @@ vertical-align: top;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
 }
 .box-comment{
-  font-size: 20px;
+  font-size: 20px
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -1022,24 +1019,28 @@ vertical-align: top;
   .intro .mini{
     text-align: left;
   }
-
+    
 .model{
   margin-bottom: 100px;
 }
 .model .list{
   display: block;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 .model .list li{
   max-width: 380px;
   width: 100%;
-  margin: 0 auto 180px;
+  margin: 0 auto 200px;
 }
 .model .list .car-img{
   position: absolute;
   top: 20px;
   z-index: 2;
 }
+.model .list .btn{
+  margin: 30px auto 0;
+}
+    
 .btn a{
   padding: 16px 0;
 }
