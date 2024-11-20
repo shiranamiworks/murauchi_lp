@@ -827,7 +827,7 @@ vertical-align: middle;
 @media screen and (max-width:768px) {
   .footer{
     width:70%;
-    margin: 0 auto 180px;
+    margin: 0 auto 80px;
   }
   .page-top {
     bottom: 15px;
