@@ -991,7 +991,7 @@ vertical-align: top;
 
 @media screen and (max-width:768px) {
 .mv-txt {
-  width: 85%;
+  width: 90%;
   margin: auto;
   opacity: 1;
   position: absolute;
