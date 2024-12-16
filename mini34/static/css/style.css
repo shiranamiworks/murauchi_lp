@@ -265,6 +265,17 @@ End-responsible-contents  only-pc
     left: 0;
     z-index: 10;
   }
+  .fixed-banner .image {
+    margin-bottom: 0;
+  }
+  .fixed-banner .close {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    width: 5%;
+  }
 }
 
 @media screen and (max-width:425px) {
@@ -277,20 +288,9 @@ End-responsible-contents  only-pc
     left: 0;
     z-index: 10000;
   }
-  .fixed-banner .image {
-    margin-bottom: 0;
-  }
   .fixed-banner img {
     display: block;
     width: 100vw;
-  }
-  .fixed-banner .close {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 3%;
-    right: 1%;
-    width: 5%;
   }
 }
 
@@ -964,8 +964,7 @@ vertical-align: middle;
 
 @media screen and (max-width:425px) {
   .page-top {
-    bottom: 15%;
-    right: 5px;
+    bottom: 12%;
   }
 }
 
