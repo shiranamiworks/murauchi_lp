@@ -708,12 +708,11 @@ h2{
 .facebook li{
   display: inline-block;
   width: 46%;
-  margin-right: 12%;
+  margin-right: 7%;
 vertical-align: top;
 }
 .facebook li:last-child{
   margin-right: auto;
-  width: 40%;
 }
 .facebook li .logo img{
   width: 100%;
@@ -1030,12 +1029,16 @@ vertical-align: top;
   }
   .facebook li:last-child{
     float: none;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    text-align: left;
   }
 }
 
 @media screen and (max-width:768px) {
+.all_wrap {
+  overflow:hidden;
+}
 .mv-txt {
   width: 90%;
   margin: auto;
@@ -1051,6 +1054,7 @@ vertical-align: top;
 .mv-txt.pc{
   display: none !important;
 }
+/*
 .main-Visual .thumbs {
   bottom: 15px;
 }
@@ -1059,6 +1063,7 @@ vertical-align: top;
   height: 12rem;
   border-radius: 6rem;
 }
+*/
     
 .intro{
 text-align: center;
