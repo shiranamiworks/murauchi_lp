@@ -308,58 +308,6 @@ main{
   display: none !important;
 }
 
-.main-visual .slides {
-  position: relative;
-}
-
-.main-visual .slides li {
-  position: relative;
-  line-height: 0;
-  opacity: 0;
-  z-index: 1;
-  transition: opacity 1.4s;
-}
-
-.main-visual .slides li.on {
-  opacity: 1;
-}
-
-.main-visual .slides li:not(:first-child) {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.main-visual .thumbs {
-  position: absolute;
-  bottom: 30px;
-  width: 100%;
-  text-align: center;
-  z-index: 10;
-}
-
-.main-visual .thumbs li {
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  border: 1px solid #fff;
-  border-radius: 7.5rem;
-  background: none;
-  transition: background-color .5s;
-  margin-right: 1rem;
-}
-
-.main-visual .thumbs li:last-child {
-  margin-right: auto;
-}
-
-.main-visual .thumbs li.on {
-  border: 1px solid #fff;
-  background: #1C69D4;
-  pointer-events: none;
-}
 
 .animetion {
   opacity: 0;
