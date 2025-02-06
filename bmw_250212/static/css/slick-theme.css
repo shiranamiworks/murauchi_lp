@@ -146,8 +146,7 @@
 
     text-align: center;
 }
-.slick-dots li
-{
+.slick-dots li{
     position: relative;
 
     display: inline-block;
@@ -208,4 +207,19 @@
 {
     opacity: 1;
     background: #0653B6;
+}
+
+@media screen and (max-width:768px) {
+.slick-dots li {
+    width: 20px;
+    height: 20px;
+}
+.slick-dots li button {
+    width: 10px;
+    height: 10px;
+}
+.slick-dots li button:before {
+    width: 10px;
+    height: 10px;
+}
 }
