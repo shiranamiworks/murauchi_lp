@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="prev" transform="translate(-1099 -446)">
+    <path id="パス_5" data-name="パス 5" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(1099 446)"/>
+    <g id="flowKitConnector" transform="translate(2212.688 931.508) rotate(180)">
+      <path id="line" d="M1081,466h16" transform="translate(4.686 -0.035)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="rightEdge" d="M-3.75-2.5h0L-.206,1.043-3.75,4.587" transform="translate(1101.894 464.921)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
