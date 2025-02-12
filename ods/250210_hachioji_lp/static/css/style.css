@@ -245,13 +245,14 @@ End-responsible-contents  only-pc
 }
 
 .obi{
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto 50px;
 }
 
 .present{
   margin: 0 auto 60px;
-  max-width: 1000px;
+  max-width: 1100px;
+  width: 94%;
 }
 
 .present .wrap{
@@ -276,15 +277,14 @@ End-responsible-contents  only-pc
 
 .lineup{
   text-align: center;
-  max-width: 1000px;
+  max-width: 1100px;
+  width: 94%;
   margin: auto;
 }
-
 .lineup .wrap{
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
-
 .lineup .car01{
   border-bottom: 1px solid;
 }
@@ -319,8 +319,6 @@ End-responsible-contents  only-pc
   margin: 30px auto 50px;
 }
 .lineup .img02{
-  max-width: 700px;
-  margin: auto;
   padding-top: 50px;
 }
 .lineup .img03{
@@ -328,8 +326,8 @@ End-responsible-contents  only-pc
 }
 
 .test-drive{
-  max-width: 1200px;
-  width: 90%;
+  max-width: 1100px;
+  width: 94%;
   border-top: 1px solid;
   margin: 0 auto 40px;
   padding: 40px 0 0;
@@ -462,8 +460,8 @@ End-responsible-contents  only-pc
 }
 
 .stores{
-  max-width: 1200px;
-  width: 90%;
+  max-width: 1100px;
+  width: 94%;
   margin: auto;
   position: relative;
   background: #fff;
@@ -661,7 +659,7 @@ End-responsible-contents  only-pc
     
   .obi{
     margin-bottom: 30px;
-    width: 90%;
+    width: 94%;
   }
   
   .present{
@@ -673,8 +671,7 @@ End-responsible-contents  only-pc
     margin: 0 auto 30px;
   }
   .present li{
-    display: block;
-    width: 70%;
+    width: 49%;
     margin: 0 auto 20px;
   }
   .present .text{
@@ -686,6 +683,11 @@ End-responsible-contents  only-pc
   }
   .present .mini{
     font-size: 12px;
+    padding-top: 20px;
+  }
+    
+  .lineup .img02{
+    padding-top: 20px;
   }
     
   .lineup .txt01{
@@ -698,7 +700,10 @@ End-responsible-contents  only-pc
   .lineup .btn{
     margin: 30px auto 50px;
   }
-    
+  
+  .test-drive .obi{
+    width: 100%;
+  }
   .test-drive .point{
     font-size: 22px;
     margin-bottom: 20px;
@@ -841,7 +846,7 @@ footer a{
    position: absolute;
    width: 20px;
    right: 1px;
-   top: 1px;
+   top: -18px;
   }
   footer{
     width:100%;
