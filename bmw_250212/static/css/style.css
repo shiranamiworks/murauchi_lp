@@ -531,6 +531,11 @@ main{
   max-width: 770px;
   margin: auto;
 }
+.btn .comments{
+  font-size: 12px;
+  color: #0653B6;
+  padding-top: 10px;
+}
 .btn a{
   background: #1C69D4;
   border-radius: 3px;
@@ -1070,7 +1075,7 @@ text-align: left;
 }
     
 .btn a{
-  padding: 16px 0;
+  padding: 6px 0;
 }
 
 .ebg svg {
