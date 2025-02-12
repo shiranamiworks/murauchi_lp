@@ -85,7 +85,7 @@ input,
 textarea,
 select,
 button {
-  font-family: "GothicMB101Pro-Regular", sans-serif;
+  font-family: "GothicMB101Pro-Regular", "Helvetica", sans-serif, "Helvetica";
   font-weight: 400;
 }
 p{
@@ -245,22 +245,23 @@ End-responsible-contents  only-pc
 }
 
 .obi{
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto 50px;
 }
 
 .present{
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
+  max-width: 1000px;
 }
 
 .present .wrap{
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
 }
 .present li{
   vertical-align: bottom;
   display: inline-block;
-  width: 30%;
+  width: 31%;
   margin-right: 2%;
 }
 .present li:last-child{
@@ -275,8 +276,18 @@ End-responsible-contents  only-pc
 
 .lineup{
   text-align: center;
+  max-width: 1000px;
+  margin: auto;
 }
 
+.lineup .wrap{
+  max-width: 800px;
+  margin: auto;
+}
+
+.lineup .car01{
+  border-bottom: 1px solid;
+}
 .lineup .texts{
   max-width: 900px;
   margin: 0 auto 20px;
@@ -286,16 +297,33 @@ End-responsible-contents  only-pc
   margin: 0 auto 20px;
 }
 .lineup .txt02{
-  text-align: left;
+  text-align: center;
   font-size: 20px;
+  margin: 30px auto;
   line-height: 1.4;
 }
+/*
+.lineup .title{
+  text-align: center;
+  font-size: 20px;
+  line-height: 2;
+  font-weight: bold;
+}
+.lineup .title .big{
+  font-size: 220%;
+  font-family: "Helvetica";
+}
+*/
 .lineup .btn{
   max-width: 642px;
   margin: 30px auto 50px;
 }
+.lineup .img02{
+  max-width: 700px;
+  margin: auto;
+  padding-top: 50px;
+}
 .lineup .img03{
-  border-top: 1px solid;
   padding-top: 50px;
 }
 
@@ -328,6 +356,10 @@ End-responsible-contents  only-pc
 }
 .test-drive .tit span{
   font-size: 18px;
+}
+.test-drive .btn{
+  max-width: 642px;
+  margin: 30px auto 50px;
 }
 
 .sliderArea {
@@ -430,10 +462,13 @@ End-responsible-contents  only-pc
 }
 
 .stores{
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
   position: relative;
   background: #fff;
   padding-top: 30px;
-  border-top: 2px solid #000;
+  border-top: 1px solid #000;
 }
 .stores h2{
   font-size: 30px;
@@ -606,6 +641,9 @@ End-responsible-contents  only-pc
 
 
 @media screen and (max-width:768px) {
+  .all_wrap {
+    overflow:hidden;
+  }
   .main-visual {
     margin-bottom: 30px;
   }
@@ -623,6 +661,7 @@ End-responsible-contents  only-pc
     
   .obi{
     margin-bottom: 30px;
+    width: 90%;
   }
   
   .present{
@@ -635,7 +674,7 @@ End-responsible-contents  only-pc
   }
   .present li{
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 0 auto 20px;
   }
   .present .text{
@@ -654,6 +693,7 @@ End-responsible-contents  only-pc
   }
   .lineup .txt02{
     font-size: 15px;
+    text-align: left;
   }
   .lineup .btn{
     margin: 30px auto 50px;
