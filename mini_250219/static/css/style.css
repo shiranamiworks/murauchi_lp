@@ -333,10 +333,6 @@ End-responsible-contents  only-pc
 
 .main-visual{
   position: relative;
-  margin-bottom: 40px;
-}
-.image{
-  margin-bottom: 40px;
 }
 .caption{
   font-size: 14px;
@@ -344,15 +340,12 @@ End-responsible-contents  only-pc
   right: 20px;
   bottom: -24px;
 }
-.main-visual .text{
-  font-size: 40px;
-  line-height: 1.3;
+.main-visual .image{
+  margin-bottom: 80px;
 }
-.main-visual .text span{
-  display: inline-block;
-  font-size: 27px;
-  line-height: 1.5;
-  padding-top: 20px;
+.main-visual .text{
+  max-width: 822px;
+  margin: 0 auto 40px;
 }
 
 .main-contents {
@@ -362,164 +355,174 @@ End-responsible-contents  only-pc
 }
 
 .sec01{
-  margin: 50px auto;
+  text-align: center;
+  background: linear-gradient(180deg, #fff 0%, #fff 12%, #EF0016 12%, #EF0016 64%, #fff 64%, #fff 100%);
+  margin-bottom: 100px;
 }
-.sec01 .btn02{
-  padding-bottom: 50px;
-  border-bottom: 1px solid;
-}
-.model{
-  margin: 30px auto;
-}
-.model li{
-    display: inline-block;
-    width: 31%;
-    margin-right: 3%;
-}
-.model li:last-child{
-    margin-right: auto;
-}
-.model .btn.none{
-    position: relative;
-}
-.model .btn.none::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-}
-/*
-.wrapper{
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  background: #fff;
-}
-.texts{
-  width: 50vw;
-}
-.texts div{
-  width: 50%;
-  margin: auto;
-}
-.texts div:last-child{
-  padding-bottom: 10vh;
-}
-.texts div .txt{
-  margin: 20px 0 100px;
-}
-.texts .scroll-box01,
-.texts .scroll-box02{
-  margin-bottom: 14rem;
-}
-.texts .scroll-box02,
-.texts .scroll-box03{
-  padding-top: 50rem;
-  margin-top: -50rem;
-}
-.texts .tit{
-  margin-bottom: 40px;
-}
-.images{
-	width: 50vw;
-	height: 0;
-	display: flex;
-	align-items: center;
-	position: sticky;
-	position: -webkit-sticky;
-	top:0;
-}
-.images p {
-	height: 100vh;
-	margin: auto;
-	display: block;
-	visibility: hidden;
-	background: #fff;
-	position: absolute;
-	top: 0;
-	transition: .8s;
-	opacity: 0;
-}
-.images p:first-child,
-.images p.active {
-	visibility: visible;
-	opacity: 1;
-}
-*/
-/*
-.sec01 a:hover{
-  opacity: 1;
-  filter: brightness(0.4);
-  transition: .3s;
-}
-*/
-
-.sec02{
-  text-align: left;
-}
-/*
-.sec02 .wrap{
-  max-width: 1000px;
-}
-*/
-.sec02 .text{
-  font-size: 20px;
-  line-height: 1.6;
+.sec01 .lists{
+  max-width: 1032px;
   margin: 0 auto 40px;
 }
-.sec02 .text span{
-  font-size: 50px;
-}
-.sec02 .list{
-  text-align: center;
-  border-bottom: 1px solid;
-}
-.sec02 .list li{
-  text-align: left;
+.sec01 .lists li{
   display: inline-block;
   vertical-align: top;
-  width: 32%;
-  margin-right: 1%;
-  margin-bottom: 40px;
+  width: 31%;
+  margin-right: 2%;
+  position: relative;
 }
-.sec02 .list li:nth-child(3n){
-  margin-right: auto;
+.sec01 .lists li:last-child{
+  margin: auto;
 }
-.sec02 .list li .image{
-  margin-bottom: 20px;
+.sec01 .mini{
+  font-size: 11px;
+  line-height: 1.8;
+  margin-top: 30px;
 }
-.sec02 .list .name{
+.sec01 .btn-img{
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+}
+
+.sections .btn00{
+  max-width: 770px;
+  margin: 0 auto;
+  position: relative;
+}
+.sections .btn00 a{
+  text-align: center;
+  display: block;
+  color: #fff;
   font-size: 20px;
-  line-height: 1.4;
-  margin: 20px 0;
+  background: #000;
+  padding: 28px 0 24px;
+  border-radius: 3px;
 }
-.sec02 .list .name span{
-  font-size: 30px;
-}
-.sec02 .list .lead{
-  font-size: 14px;
-  line-height: 1.4;
-}
-.sec02 .list .btn{
-  border: 1px solid;
-  padding: 18px 20px 14px;
-  box-sizing: border-box;
-  display: inline-block;
-  margin-top: 20px;
-}
-.sec02 .list .btn a{
-  color: #000;
-}
-/*
-.sec02 .list a:hover{
-  opacity: 1;
-  filter: brightness(0.4);
+.sections .btn00 a span{
+  position: absolute;
+  top: 16px;
+  right: 5%;
+  opacity: 0;
   transition: .3s;
 }
-*/
+.sections .btn00 a:hover{
+  opacity: 1;
+}
+.sections .btn00 a:hover span{
+  opacity: 1;
+}
+
+
+.sec02{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.sec02 .txt01{
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+.sec02 .txt02{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.sec02 .lead{
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 60px;
+}
+.sec02 .btn00{
+  margin-bottom: 20px;
+}
+
+.sec03{
+  text-align: center;
+  background: #000;
+  color: #fff;
+  padding-bottom: 100px;
+  margin-bottom: 120px;
+}
+.sec03 .tit{
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  color: #EF0016;
+}
+.sec03 .txt01{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.sec03 .logo{
+  max-width: 200px;
+  margin: 0 auto 60px;
+}
+.sec03 .txt02{
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: #EF0016;
+}
+.sec03 .lead{
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+.sec03 .mini{
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+.sec03 .lists{
+  max-width: 1032px;
+  margin: 0 auto 60px;
+}
+.sec03 .lists li{
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+}
+.sec03 .lists li:last-child{
+  margin-right: auto;
+}
+.sec03 .btn00 a{
+  background: #FF0017;
+}
+
+.sec04{
+  text-align: center;
+}
+.sec04 .txt{
+  font-size: 30px;
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+.sec04 .img-txt{
+  max-width: 516px;
+  margin: 0 auto 40px;
+}
+.sec04 .lead{
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 60px;
+}
+.sec04 .lists{
+  max-width: 1032px;
+  margin: 0 auto 60px;
+}
+.sec04 .lists li{
+  display: inline-block;
+  width: 31%;
+  margin-right: 2%;
+}
+.sec04 .lists li:last-child{
+  margin-right: auto;
+}
+.sec04 .btn00 a{
+  background: #00B3EA;
+  color: #870D96;
+}
+
 
 h2{
   margin-bottom: 30px;
@@ -792,69 +795,99 @@ vertical-align: middle;
 }
     
 .sec01{
-  margin: auto;
-}
-.model li{
-    display: inline-block;
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 30px;
-}
-.model li:last-child{
-    margin-bottom: auto;
-}
-/*
-.sec01 .car-inner{
-  background: #57c4e5;
-}
-.sec01 .car-inner.inner02{
-  background: #113F94;
-}
-.sec01 .car-inner.inner03{
-  background: #003016;
-}
-.sec01 .car-inner .link{
-  width: 84%;
-  margin: auto;
-  padding: 40px 0 20px;
-}
-.sec01 .car-inner .link .txt{
-  padding: 20px 0 60px 12px;
-}
-.sec01 .car-inner .btn-box{
-  background: #fff;
-  padding: 10px;
-  box-sizing: border-box;
-}
-.sec01 .car-inner .btn-box .mini{
   text-align: center;
-  font-size: 11px;
-  line-height: 1.5;
+  background: linear-gradient(180deg, #fff 0%, #fff 10%, #EF0016 10%, #EF0016 80%, #fff 80%, #fff 100%);
+  margin-bottom: 60px;
 }
-*/
-
-/*
-.sec02{
-  padding: 60px 0 60px;
-}
-*/
-.sec02 .text{
-  font-size: 17px;
-  text-align: left;
-  margin: 40px auto;
-}
-.sec02 .text span{
-  font-size: 40px;
-  display: inline-block;
-  padding-bottom: 20px;
-}
-.sec02 .list li{
-  display: block;
+.sec01 .lists li{
   width: 100%;
+  margin-bottom: 20px;
+}
+.sec01 .lists li:last-child{
+  margin: auto;
+}
+.sec01 .mini{
+  text-align: left;
+}
+
+.sec02{
   margin-bottom: 40px;
 }
-.sec02 .list .btn{
-  margin-top: 0;
+.sec02 .txt01{
+  font-size: 40px;
+  margin-top: 50px;
+}
+.sec02 .txt02{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.sec02 .lead{
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.sec02 .btn00{
+  margin-bottom: 20px;
+}
+
+.sec03{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.sec03 .tit{
+  font-size: 40px;
+  margin-top: 50px;
+}
+.sec03 .txt01{
+  font-size: 20px;
+  line-height: 1.5;
+}
+.sec03 .logo{
+  max-width: 200px;
+  margin: 0 auto 40px;
+}
+.sec03 .txt02{
+  font-size: 26px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #EF0016;
+}
+.sec03 .lead{
+  font-size: 16px;
+  text-align: left;
+}
+.sec03 .mini{
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 50px;
+}
+.sec03 .lists{
+  max-width: 1032px;
+  margin: 0 auto 40px;
+}
+
+.sec04{
+  text-align: center;
+}
+.sec04 .txt{
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.sec04 .img-txt{
+  max-width: 516px;
+  margin: 0 auto 30px;
+}
+.sec04 .lead{
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+.sec04 .lists{
+  max-width: 1032px;
+  margin: 0 auto 40px;
 }
     
   .comment{
