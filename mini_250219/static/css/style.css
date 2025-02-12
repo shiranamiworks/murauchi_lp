@@ -222,7 +222,7 @@ End-responsible-contents  only-pc
 
 .fix_navi {
   position: fixed;
-  max-width: 250px;
+  max-width: 280px;
   width: 100%;
   top: 75%;
   right: 0;
@@ -406,7 +406,7 @@ End-responsible-contents  only-pc
   top: 16px;
   right: 5%;
   opacity: 0;
-  transition: .3s;
+  transition: .6s;
 }
 .sections .btn00 a:hover{
   opacity: 1;
