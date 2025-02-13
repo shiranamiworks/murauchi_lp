@@ -525,7 +525,13 @@ main{
   opacity: 1;
   background: #0653B6;
 }
-
+.model .list .btn.none{
+  pointer-events: none;
+}
+.model .list .btn.none a{
+  background: #1C69D4;
+  opacity: 0.3;
+}
 
 .btn{
   max-width: 770px;
