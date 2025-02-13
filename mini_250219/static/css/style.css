@@ -259,7 +259,7 @@ End-responsible-contents  only-pc
   }
   .fixed-banner {
     position: fixed;
-    max-width: 375px;
+    max-width: inherit;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -380,9 +380,9 @@ End-responsible-contents  only-pc
 }
 .sec01 .btn-img{
   position: absolute;
-  width: 90%;
+  width: 80%;
   margin: auto;
-  bottom: 15px;
+  bottom: 4%;
   left: 0;
   right: 0;
 }
