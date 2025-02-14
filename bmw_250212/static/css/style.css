@@ -532,6 +532,22 @@ main{
   background: #1C69D4;
   opacity: 0.3;
 }
+.model .topic {
+  margin: 50px auto 0;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid;
+  color: #0653B6;
+  display: inline-block;
+  padding: 20px 30px;
+  line-height: 1.4;
+}
+.model .topic02 {
+  padding-top: 20px;
+  font-size: 25px;
+}
+
 
 .btn{
   max-width: 770px;
@@ -1079,6 +1095,16 @@ text-align: left;
 .model .list .btn{
   margin: 30px auto 0;
 }
+.model .topic {
+  font-size: 24px;
+  padding: 10px;
+  margin: 30px auto 0;
+}
+.model .topic02 {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
     
 .btn a{
   padding: 6px 0;
@@ -1259,7 +1285,7 @@ footer .image{
   position: sticky;
   top: 0;
   width: 50%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
