@@ -536,6 +536,10 @@ main{
   padding: 20px 30px;
   line-height: 1.4;
 }
+.model .topic02 {
+  padding-top: 20px;
+  font-size: 25px;
+}
 
 .btn{
   max-width: 770px;
@@ -1089,7 +1093,10 @@ text-align: left;
   padding: 7px;
   margin: auto;
 }
-
+.model .topic02 {
+  padding-top: 15px;
+  font-size: 20px;
+}
     
 .btn a{
   padding: 6px 0;
