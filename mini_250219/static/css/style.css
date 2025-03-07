@@ -356,7 +356,7 @@ End-responsible-contents  only-pc
 
 .sec01{
   text-align: center;
-  background: linear-gradient(180deg, #fff 0%, #fff 12%, #EF0016 12%, #EF0016 64%, #fff 64%, #fff 100%);
+  background: linear-gradient(180deg, #fff 0%, #fff 12%, #D78A30 12%, #D78A30 64%, #fff 64%, #fff 100%);
   margin-bottom: 100px;
 }
 .sec01 .lists{
@@ -382,7 +382,7 @@ End-responsible-contents  only-pc
   position: absolute;
   width: 80%;
   margin: auto;
-  bottom: 10%;
+  bottom: 5%;
   left: 0;
   right: 0;
 }
@@ -418,7 +418,6 @@ End-responsible-contents  only-pc
 
 .sec02{
   text-align: center;
-  margin-bottom: 80px;
 }
 .sec02 .txt01{
   font-size: 60px;
@@ -449,7 +448,7 @@ End-responsible-contents  only-pc
   font-size: 60px;
   margin-bottom: 10px;
   margin-top: 80px;
-  color: #EF0016;
+/*  color: #EF0016;*/
 }
 .sec03 .txt01{
   font-size: 30px;
@@ -491,15 +490,29 @@ End-responsible-contents  only-pc
 
 .sec04{
   text-align: center;
+  margin-bottom: 100px;
+}
+.sec04 .tit{
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  color: #bbd780;
 }
 .sec04 .txt{
-  font-size: 30px;
-  margin-bottom: 60px;
-  margin-top: 100px;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  margin: 10px auto;
 }
-.sec04 .img-txt{
-  max-width: 516px;
-  margin: 0 auto 40px;
+.sec04 .txt02{
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+.sec04 .tit02{
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #582216;
 }
 .sec04 .lead{
   font-size: 20px;
@@ -508,19 +521,26 @@ End-responsible-contents  only-pc
 }
 .sec04 .lists{
   max-width: 1032px;
-  margin: 0 auto 60px;
+  margin: 0 auto 100px;
 }
 .sec04 .lists li{
   display: inline-block;
   width: 31%;
   margin-right: 2%;
+  vertical-align: top;
 }
 .sec04 .lists li:last-child{
   margin-right: auto;
 }
-.sec04 .btn00 a{
-  background: #00B3EA;
-  color: #870D96;
+.sec04 .btn00 {
+  margin-bottom: 20px;
+}
+.sec04 .mini {
+  font-size: 11px;
+  line-height: 1.8;
+  margin: 30px auto 0;
+  max-width: 770px;
+  text-align: left;
 }
 
 
@@ -632,9 +652,8 @@ vertical-align: middle;
 .stores .btn-mini a.detail{
   background: #000;
   color: #fff;
-  font-size: 24px;
-  font-weight: bold;
-  padding: 24px 0 22px;
+  font-size: 20px;
+  padding: 26px 0 22px;
   max-width: 220px;
   width: 80%;
 }
@@ -708,8 +727,7 @@ vertical-align: middle;
   background: #000;
   color: #fff;
   font-size: 24px;
-  font-weight: bold;
-  padding: 24px 0 22px;
+  padding: 26px 0 22px;
   max-width: 220px;
   width: 80%;
   margin: auto;
@@ -796,7 +814,7 @@ vertical-align: middle;
     
 .sec01{
   text-align: center;
-  background: linear-gradient(180deg, #fff 0%, #fff 10%, #EF0016 10%, #EF0016 80%, #fff 80%, #fff 100%);
+  background: linear-gradient(180deg, #fff 0%, #fff 10%, #D78A30 10%, #D78A30 80%, #fff 80%, #fff 100%);
   margin-bottom: 60px;
 }
 .sec01 .lists li{
@@ -810,9 +828,6 @@ vertical-align: middle;
   text-align: left;
 }
 
-.sec02{
-  margin-bottom: 40px;
-}
 .sec02 .txt01{
   font-size: 40px;
   margin-top: 50px;
@@ -868,16 +883,25 @@ vertical-align: middle;
 
 .sec04{
   text-align: center;
+  margin-bottom: 60px;
+}
+.sec04 .tit{
+  font-size: 40px;
+  margin-top: 40px;
 }
 .sec04 .txt{
   font-size: 20px;
   line-height: 1.4;
-  margin-bottom: 30px;
-  margin-top: 50px;
+  margin: 10px auto;
 }
-.sec04 .img-txt{
-  max-width: 516px;
-  margin: 0 auto 30px;
+.sec04 .txt02{
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+.sec04 .tit02{
+  font-size: 21px;
+  line-height: 1.4;
 }
 .sec04 .lead{
   text-align: left;
@@ -889,13 +913,19 @@ vertical-align: middle;
   max-width: 1032px;
   margin: 0 auto 40px;
 }
-    
+.sec04 .lists li {
+  display: inline-block;
+  width: 100%;
+  margin-right: auto;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
   .comment{
     font-size: 16px;
     margin-bottom: 20px;
   }
   .btn-mini a{
-    font-size: 24px;
+    font-size: 20px;
     padding: 25px 0 20px;
     width: 100%;
     margin: auto;
@@ -997,7 +1027,7 @@ vertical-align: middle;
 
 @media screen and (max-width:425px) {
   .page-top {
-    bottom: 12%;
+    bottom: 13%;
   }
 }
 
