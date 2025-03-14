@@ -434,7 +434,11 @@ main{
 
 .intro{
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 50px;
+}
+.intro.bg{
+  background: #f2f2f2;
+  padding: 100px 0 100px;
 }
 .intro .logo{
   max-width: 142px;
@@ -445,13 +449,24 @@ main{
   margin: 0 auto 30px;
 }
 .intro .txt01{
-  font-size: 27px;
-  line-height: 1.6;
+  color: #0653B6;
+  font-size: 24px;
+  line-height: 1.8;
   margin-bottom: 20px;
+}
+.intro .txt01 span{
+  font-size: 120%;
+  font-weight: bold;
+}
+.intro .txt01 sup{
+  color: #262626;
 }
 .intro .mini{
   font-size: 14px;
   line-height: 1.4;
+}
+.intro .mini.mini02{
+  margin-top: 50px;
 }
 .intro .title02 .mini{
   font-size: 20px;
@@ -460,15 +475,23 @@ main{
   padding-top: 20px;
 }
 .intro .title02{
+  display: inline-block;
   font-size: 43px;
   font-weight: bold;
   color: #0653B6;
   line-height: 1.4;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  border: 2px solid;
+  padding: 0 30px 10px;
 }
+.intro .title02 span{
+  font-size: 28px;
+}
+/*
 .intro.fair-title{
   border-bottom: 1px solid #0653B6;
 }
+*/
 .intro .logo-txt{
   font-size: 30px;
   padding-bottom: 20px;
@@ -478,7 +501,8 @@ main{
   font-weight: bold;
   color: #0653B6;
   line-height: 1.6;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  letter-spacing: .05em;
 }
 .intro .title .day{
   font-size: 30px;
@@ -551,7 +575,11 @@ main{
 
 .btn{
   max-width: 770px;
-  margin: auto;
+  margin: 50px auto 0;
+}
+.btn img{
+  max-width: 200px;
+  width: 33%;
 }
 .btn .comments{
   font-size: 12px;
@@ -559,9 +587,10 @@ main{
   padding-top: 10px;
 }
 .btn a{
+  text-align: center;
   background: #1C69D4;
   border-radius: 3px;
-  padding: 6px 0;
+  padding: 16px 0;
   display: block;
   transition: .3s;
 }
@@ -1044,24 +1073,33 @@ vertical-align: top;
 text-align: center;
 padding: 30px 0;
 }
+.intro.bg{
+padding: 50px 0;
+}
 .intro .obi{
 margin-bottom: 20px;
 }
 .intro .txt01{
 text-align: left;
-font-size: 22px;
+font-size: 20px;
 }
 .intro .mini{
 text-align: left;
 }
-    
+.intro .mini.mini02{
+margin-top: 25px;
+}  
 .intro .title02 .mini{
   font-size: 16px;
   text-align: center;
   padding-top: 10px;
 }
 .intro .title02{
-  font-size: 38px;
+  font-size: 30px;
+  padding: 0 29px 10px;
+}
+.intro .title02 span{
+  font-size: 18px;
 }
 .intro .logo-txt{
   font-size: 24px;
@@ -1105,9 +1143,13 @@ text-align: left;
   font-size: 20px;
 }
 
-    
-.btn a{
-  padding: 6px 0;
+
+.btn{
+  width: 94%;
+  margin: 50px auto 0;
+}
+.btn img{
+  width: 100%;
 }
 
 .ebg svg {
