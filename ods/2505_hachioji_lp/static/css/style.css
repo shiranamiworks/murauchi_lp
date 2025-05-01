@@ -222,7 +222,7 @@ End-responsible-contents  only-pc
 }
 .main-visual{
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .main-visual img{
   width: 100%;
@@ -235,13 +235,13 @@ End-responsible-contents  only-pc
 }
 
 .intro{
-  text-align: left;
-  margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 80px;
 }
 .intro .text{
-  text-align: left;
-  font-size: 26px;
-  line-height: 1.6;
+  text-align: center;
+  font-size: 22px;
+  line-height: 2;
 }
 
 .obi{
@@ -251,14 +251,18 @@ End-responsible-contents  only-pc
 
 .present{
   margin: 0 auto 60px;
-  max-width: 1200px;
+  max-width: 1100px;
   width: 94%;
 }
 .present .txt02{
-  text-align: left;
-  font-size: 26px;
-  margin: 30px auto;
-  line-height: 1.6;
+  text-align: center;
+  font-size: 22px;
+  margin: 0 auto 50px;
+  line-height: 2;
+}
+.present .wrap{
+  max-width: 900px;
+  margin: auto;
 }
 .present .img02{
   margin: 40px auto;
@@ -277,7 +281,7 @@ End-responsible-contents  only-pc
 
 .buttons{
   text-align: center;
-  max-width: 1200px;
+  max-width: 1100px;
   width: 94%;
   margin: 0 auto 40px;
   border-bottom: 1px solid;
@@ -309,7 +313,7 @@ End-responsible-contents  only-pc
 
 .test{
   text-align: center;
-  max-width: 1200px;
+  max-width: 1100px;
   width: 94%;
   margin: auto;
 }
@@ -317,10 +321,10 @@ End-responsible-contents  only-pc
   margin: 0 auto 20px;
 }
 .test .text{
-  text-align: left;
-  font-size: 26px;
-  margin: 20px auto;
-  line-height: 1.6;
+  text-align: center;
+  font-size: 22px;
+  margin: 50px auto;
+  line-height: 2;
 }
 .mini{
   text-align: left;
@@ -340,12 +344,16 @@ End-responsible-contents  only-pc
 
 .lineup{
   text-align: center;
-  max-width: 1200px;
+  max-width: 1100px;
   width: 94%;
   margin: 0 auto 40px;
 }
+.lineup .wrap{
+  max-width: 900px;
+  margin: auto;
+}
 .lineup .cars{
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .lineup .images{
   margin: 20px auto;
@@ -359,9 +367,14 @@ End-responsible-contents  only-pc
   margin: auto;
 }
 .lineup .info{
-  text-align: left;
-  font-size: 26px;
-  line-height: 1.5;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+.lineup .info span{
+  font-size: 16px;
 }
 .lineup .mini{
   text-align: left;
@@ -438,7 +451,7 @@ End-responsible-contents  only-pc
 }
 
 .stores{
-  max-width: 1200px;
+  max-width: 1100px;
   width: 94%;
   margin: auto;
   position: relative;
@@ -701,7 +714,10 @@ End-responsible-contents  only-pc
   margin: 10px auto;
 }
 .lineup .info{
-  font-size: 16px;
+  font-size: 15px;
+}
+.lineup .info span{
+  font-size: 13px;
 }
 .lineup .mini{
   font-size: 12px;
