@@ -36,8 +36,9 @@ $(function() {
     autoplay: true,
     autoplaySpeed: 2500,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
+    arrows: false,
     responsive: [
       {
         breakpoint: 580,

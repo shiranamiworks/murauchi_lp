@@ -222,7 +222,7 @@ End-responsible-contents  only-pc
 }
 .main-visual{
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .main-visual img{
   width: 100%;
@@ -235,164 +235,137 @@ End-responsible-contents  only-pc
 }
 
 .intro{
-  text-align: center;
-  margin-bottom: 100px;
+  text-align: left;
+  margin-bottom: 50px;
 }
 .intro .text{
-  text-align: center;
-  font-size: 20px;
-  line-height: 2;
+  text-align: left;
+  font-size: 26px;
+  line-height: 1.6;
 }
 
 .obi{
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto 50px;
 }
 
 .present{
   margin: 0 auto 60px;
-  max-width: 1100px;
+  max-width: 1200px;
   width: 94%;
 }
 .present .txt02{
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
+  font-size: 26px;
   margin: 30px auto;
-  line-height: 1.4;
+  line-height: 1.6;
 }
-.present .wrap{
-  max-width: 900px;
-  margin: auto;
+.present .img02{
+  margin: 40px auto;
 }
-.present li{
-  vertical-align: bottom;
-  display: inline-block;
-  width: 31%;
-  margin-right: 2%;
-}
-.present li:last-child{
-  margin-right: auto;
-}
-.present .mini{
-  padding-top: 50px;
+.present .caps{
+  border: 1px solid;
+  padding: 20px 30px;
+  box-sizing: border-box;
   text-align: left;
   font-size: 14px;
   line-height: 1.8;
 }
+.present .caps span{
+  font-size: 12px;
+}
 
-.lineup{
+.buttons{
   text-align: center;
-  max-width: 1100px;
+  max-width: 1200px;
   width: 94%;
-  margin: auto;
-}
-.lineup .wrap{
-  max-width: 900px;
-  margin: auto;
-}
-.lineup .car01{
+  margin: 0 auto 40px;
   border-bottom: 1px solid;
 }
-.lineup .texts{
-  max-width: 900px;
-  margin: 0 auto 20px;
+.buttons .list{
+  margin: 40px auto;
 }
-.lineup .txt01{
-  max-width: 900px;
-  margin: 0 auto 20px;
-}
-.lineup .txt02{
-  text-align: center;
-  font-size: 20px;
-  margin: 30px auto;
-  line-height: 1.4;
-}
-/*
-.lineup .title{
-  text-align: center;
-  font-size: 20px;
-  line-height: 2;
-  font-weight: bold;
-}
-.lineup .title .big{
-  font-size: 220%;
-  font-family: "Helvetica";
-}
-*/
-.lineup .btn{
-  max-width: 642px;
-  margin: 30px auto 50px;
-}
-.lineup .img02{
-  padding-top: 50px;
-}
-.lineup .img03{
-  padding-top: 50px;
-}
-
-.test-drive{
-  max-width: 1100px;
-  width: 94%;
-  border-top: 1px solid;
-  margin: 0 auto 40px;
-  padding: 40px 0 0;
-}
-.test-drive .point{
+.buttons .list li{
   display: inline-block;
-  font-size: 28px;
-  line-height: 1.4;
-  border: 3px solid #f5bc41;
-  margin-bottom: 40px;
-  padding: 10px 20px;
-  box-sizing: border-box;
+  width: 48%;
+  margin-right: 2%;
 }
-.test-drive .lead{
-  font-size: 20px;
-  line-height: 2;
-  text-align: center;
-  margin-bottom: 40px;
+.buttons .list li:last-child{
+  margin-right: auto;
 }
-.test-drive .tit{
+.buttons .list li a{
+  background: #1d3c3b;
+  color: #fff;
   font-size: 26px;
   font-weight: bold;
-  margin-bottom: 40px;
+  padding: 20px 0;
+  display: block;
+  border-radius: 10px;
 }
-.test-drive .tit span{
-  font-size: 18px;
-}
-.test-drive .btn{
-  max-width: 642px;
-  margin: 30px auto 50px;
+.buttons .list li:first-child a{
+  pointer-events: none;
 }
 
-.sliderArea {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto 80px;
+
+.test{
+  text-align: center;
+  max-width: 1200px;
+  width: 94%;
+  margin: auto;
 }
-.sliderArea .slick-slide img {
-/*  width: 90%;*/
+.test .obi{
+  margin: 0 auto 20px;
+}
+.test .text{
+  text-align: left;
+  font-size: 26px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+.mini{
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.test .sliderArea {
   width: 100%;
+  margin: 0 auto 50px;
+}
+.test .sliderArea .slick-slide img {
+  width: 95%;
   height: auto;
   margin: auto;
 }
-.sliderArea .image {
-  padding-right: 4%;
+
+
+.lineup{
+  text-align: center;
+  max-width: 1200px;
+  width: 94%;
+  margin: 0 auto 40px;
 }
-.sliderArea .slick-prev, .slick-next {
-  z-index: 1;
+.lineup .cars{
+  margin-bottom: 50px;
 }
-.sliderArea .slick-prev:before, .slick-next:before {
-  color: #000;
+.lineup .images{
+  margin: 20px auto;
 }
-.sliderArea .slick-slide {
-  transition: all ease-in-out .3s;
+.lineup .images li{
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
 }
-.sliderArea .slick-active {
-  opacity: 1;
+.lineup .images li:last-child{
+  margin: auto;
 }
-.sliderArea .slick-current {
-  opacity: 1;
+.lineup .info{
+  text-align: left;
+  font-size: 26px;
+  line-height: 1.5;
+}
+.lineup .mini{
+  text-align: left;
+  font-size: 14px;
 }
 
 .btns{
@@ -465,13 +438,11 @@ End-responsible-contents  only-pc
 }
 
 .stores{
-  max-width: 1100px;
+  max-width: 1200px;
   width: 94%;
   margin: auto;
   position: relative;
   background: #fff;
-  padding-top: 30px;
-  border-top: 1px solid #000;
 }
 .stores h2{
   font-size: 30px;
@@ -650,21 +621,16 @@ End-responsible-contents  only-pc
   .main-visual {
     margin-bottom: 30px;
   }
+    
   .intro{
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .intro .image{
     margin-bottom: 30px;
   }
   .intro .text{
-    text-align: left;
     font-size: 18px;
   }
     
   .obi{
-    margin-bottom: 30px;
-    width: 94%;
+    margin-bottom: 20px;
   }
   
   .present{
@@ -672,28 +638,77 @@ End-responsible-contents  only-pc
     margin-bottom: 30px;
   }
   .present .txt02{
-    font-size: 15px;
-  }
-  .present .img-txt{
-    width: 80%;
-    margin: 0 auto 30px;
-  }
-  .present li{
-    width: 49%;
-    margin: 0 auto 20px;
-  }
-  .present .text{
-    font-size: 26px;
-    margin-bottom: 20px;
-  }
-  .present .lead{
     font-size: 16px;
   }
-  .present .mini{
-    font-size: 12px;
-    padding-top: 20px;
+  .present .img02{
+    margin: 20px auto;
   }
-    
+  .present .caps{
+    padding: 20px 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .present .caps span{
+    font-size: 11px;
+  }
+
+  .buttons .list{
+    margin: 20px auto 0;
+  }
+  .buttons .list li{
+    width: 100%;
+  }
+  .buttons .list li:last-child{
+    margin: 10px auto 0;
+  }
+  .buttons .list li a{
+    font-size: 20px;
+  }
+  .buttons .list li:first-child a{
+    pointer-events: inherit;
+  }
+
+.test{
+  text-align: center;
+  max-width: 1200px;
+  width: 94%;
+  margin: auto;
+}
+.test .obi{
+  margin: 0 auto 20px;
+}
+.test .text{
+  font-size: 18px;
+}
+.mini{
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.test .sliderArea {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.lineup{
+  margin: 0 auto;
+}
+.lineup .cars{
+  margin-bottom: 30px;
+}
+.lineup .images{
+  margin: 10px auto;
+}
+.lineup .info{
+  font-size: 16px;
+}
+.lineup .mini{
+  font-size: 12px;
+  line-height: 1.4;
+  margin: auto;
+}
+
   .lineup .img02{
     padding-top: 20px;
   }
