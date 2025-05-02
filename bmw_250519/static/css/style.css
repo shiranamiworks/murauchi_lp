@@ -308,6 +308,15 @@ main{
   display: none !important;
 }
 
+.slide01 .slick-slide img{
+  width: 94%;
+}
+.slide01 .slick-dots{
+  bottom: -50px;
+}
+.slide01 .slick-dots li button:before{
+  background: #E6E6E6;
+}
 
 .animetion {
   opacity: 0;
@@ -362,7 +371,6 @@ main{
   -webkit-transform: translateX(101%);
   transform: translateX(101%);
 }
-
 
 .overlay,
 .animate-elm.-transform:before {
@@ -449,6 +457,10 @@ main{
   line-height: 1.6;
   margin-bottom: 20px;
 }
+.intro .txt02{
+  font-size: 18px;
+  line-height: 1.8;
+}
 .intro .mini{
   font-size: 14px;
   line-height: 1.4;
@@ -459,12 +471,22 @@ main{
   display: block;
   padding-top: 20px;
 }
+.intro .title02 .mini01{
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+.intro .title02 .mini02{
+  font-size: 13px;
+  font-weight: normal;
+  padding-left: 6px;
+}
 .intro .title02{
   font-size: 43px;
   font-weight: bold;
   color: #0653B6;
   line-height: 1.4;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .intro.fair-title{
   border-bottom: 1px solid #0653B6;
@@ -486,68 +508,51 @@ main{
   padding-top: 20px;
   color: #000;
 }
+.intro.model{
+  padding-top: 100px;
+  margin-top: 150px;
+  border-top: 1px solid #0653B6;
+}
 
-.model{
-  text-align: center;
-  margin-bottom: 150px;
+.model ul{
+  max-width: 1000px;
+  margin: 60px auto 0;
 }
-.model .list{
-  display: flex;
-  align-items:stretch;
-  justify-content: space-between;
-  padding-bottom: 20%;
-}
-.model .list li{
-  position: relative;
-  vertical-align: top;
-  width: 30%;
-  margin-right: 4%;
-}
-.model .list li:nth-child(3n){
-  margin-right: auto;
-}
-.model .list .car-img{
-  position: absolute;
-  top: 20px;
-  z-index: 2;
-}
-.model .list .btn{
- margin: 50px auto;
-}
-.model .list .btn a{
-  background: #1C69D4;
-  border-radius: 3px;
-  padding: 15px 30px;
-  display: block;
-  transition: .3s;
-}
-.model .list .btn a:hover{
-  opacity: 1;
-  background: #0653B6;
-}
-.model .list .btn.none{
-  pointer-events: none;
-}
-.model .list .btn.none a{
-  background: #1C69D4;
-  opacity: 0.3;
-}
-.model .topic {
-  margin: 50px auto 0;
-  font-size: 38px;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid;
-  color: #0653B6;
+.model li{
   display: inline-block;
-  padding: 20px 30px;
-  line-height: 1.4;
+  width: 32%;
+  margin-right: 1%;
 }
-.model .topic02 {
-  padding-top: 20px;
-  font-size: 25px;
+.model li:last-child{
+  margin: auto;
 }
 
+.coupe .prices{
+  max-width: 725px;
+  margin: 80px auto 100px;
+}
+.coupe .prices .txt{
+  font-size: 11px;
+  line-height: 2;
+  margin-bottom: 40px;
+}
+.coupe .prices .mini{
+  font-size: 11px;
+  color: #1C69D4;
+  margin-bottom: 16px;
+}
+.coupe .prices .price{
+  font-size: 17px;
+  line-height: 1.6;
+  color: #1C69D4;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid;
+}
+.coupe .btn01{
+  max-width: 428px;
+  margin: auto;
+}
 
 .btn{
   max-width: 770px;
@@ -568,41 +573,6 @@ main{
 .btn a:hover{
   opacity: 1;
   background: #0653B6;
-}
-
-.ebg svg {
-  margin: 0 auto;
-  opacity: 0;
-}
-.ebg.on svg {
-  margin: 0 auto;
-  opacity: 1;
-}
-.ebg.on  path {
-  stroke: #1C69D4;
-  stroke-width: 1;
-  stroke-dasharray: 0 0;
-  fill: rgba(28,105,212,1);
-  animation-name: obi;
-  animation-duration: 2.5s;
-  animation-timing-function: linear;
-}
-@keyframes obi {
-  0% {
-    fill: rgba(28,105,212,0);
-    stroke-dasharray: 250 250;
-    stroke-opacity: 1;
-  }
-  30% {
-    fill: rgba(28,105,212,0);
-  stroke-opacity: 1;
-  stroke-dasharray: 0 250;
-  }
-  100% {
-    fill: rgba(28,105,212,1);
-    stroke-dasharray: 0 250;
-    stroke-opacity: 0;
-  }
 }
 
 h2{
@@ -741,7 +711,8 @@ vertical-align: top;
 
 .stores{
   background: #FFF;
-  padding-top: 150px;
+  padding-top: 120px;
+  border-top: 1px solid #1C69D4;
 }
 .stores .wrap{
   max-width: 880px;
@@ -1029,16 +1000,7 @@ vertical-align: top;
 .mv-txt.pc{
   display: none !important;
 }
-/*
-.main-Visual .thumbs {
-  bottom: 15px;
-}
-.main-Visual .thumbs li {
-  width: 12rem;
-  height: 12rem;
-  border-radius: 6rem;
-}
-*/
+
     
 .intro{
 text-align: center;
@@ -1075,75 +1037,14 @@ text-align: left;
   padding-top: 10px;
 }
     
-.model{
-  margin-bottom: 100px;
-}
-.model .list{
-  display: block;
-  padding-bottom: 0px;
-}
-.model .list li{
-  max-width: 380px;
-  width: 100%;
-  margin: 0 auto 200px;
-}
-.model .list .car-img{
-  position: absolute;
-  top: 20px;
-  z-index: 2;
-}
-.model .list .btn{
-  margin: 30px auto 0;
-}
-.model .topic {
-  font-size: 24px;
-  padding: 10px;
-  margin: 30px auto 0;
-}
-.model .topic02 {
-  padding-top: 15px;
-  font-size: 20px;
-}
+
 
     
 .btn a{
   padding: 6px 0;
 }
 
-.ebg svg {
-  margin: 0 auto;
-  opacity: 0;
-}
-.ebg.on svg {
-  margin: 0 auto;
-  opacity: 1;
-}
-.ebg.on  path {
-  stroke: #1C69D4;
-  stroke-width: 1;
-  stroke-dasharray: 0 0;
-  fill: rgba(28,105,212,1);
-  animation-name: obi;
-  animation-duration: 2.5s;
-  animation-timing-function: linear;
-}
-@keyframes obi {
-  0% {
-    fill: rgba(28,105,212,0);
-    stroke-dasharray: 250 250;
-    stroke-opacity: 1;
-  }
-  30% {
-    fill: rgba(28,105,212,0);
-  stroke-opacity: 1;
-  stroke-dasharray: 0 250;
-  }
-  100% {
-    fill: rgba(28,105,212,1);
-    stroke-dasharray: 0 250;
-    stroke-opacity: 0;
-  }
-}
+
   .corporate li{
     display: block;
     width: 100%;
@@ -1270,86 +1171,7 @@ footer .image{
   }
 }
 
-.debut {
-  margin: 0 auto 50px;
-}
 
-.debut .series {
-  position: relative;
-  display: flex !important; 
-  flex-wrap: wrap;
-}
-
- .debut .fixed-area {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.debut .fixed-area .text {
-  font-size: 16px;
-  line-height: 2.4;
-  width: 70%;
-  margin: auto;
-  text-align: left;
-  color: #000;
-}
-
-.debut .container {
-  width: 50%;
-}
-.debut .container .scroll {
-  min-height: 10vh;
-  padding: 30px;
-}
-.debut .container .scroll .function img{
-  width: 90%;
-  margin: auto;
-}
-.debut .container .btn a{
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) {
- .debut .series {
-    display: block;
-  }
- .debut .container .scroll {
-    min-height: auto;
-    padding: 20px 0;
-  }
-  .debut .container .scroll .lead {
-    font-size: 30px;
-    text-align: left;
-    font-weight: bold;
-    line-height: 1.4;
-    padding: 30px 0;
-  }
- .debut .container .scroll .function img{
-    width: 100%;
-  }
-  .debut .container .scroll .text{
-    font-size: 16px;
-    line-height: 1.8;
-  }
-
- .debut .fixed-area {
-    position: relative !important;
-    width: 100%;
-    height: auto; 
-  }
- .debut .fixed-area .text {
-    width: 100%;
- }
-
- .debut .container {
-    width: 100%;
-  }
-}
 
 
 

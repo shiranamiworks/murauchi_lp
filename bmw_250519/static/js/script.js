@@ -222,3 +222,35 @@ $('.slides').slick({
   autoplay: true,
 });
 });
+
+$(function () {
+$('.slide01').slick({
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: true,
+    slidesToShow: 5,
+    centerMode: true,
+    centerPadding: '25%',
+    dots:true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      }
+    ]
+});
+});
+
+$(function () {
+$('.slide02').slick({
+  autoplay: true,
+  infinite: true,
+  arrows: false,
+  dots:true,
+  fade: true,
+  speed: 3000,
+  autoplaySpeed: 3000,
+});
+});
