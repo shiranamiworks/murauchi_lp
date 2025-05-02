@@ -559,7 +559,7 @@ End-responsible-contents  only-pc
 
   .fixed-banner {
     position: fixed;
-    width: 320px;
+    width: 260px;
     bottom: 0;
     right: 1%;
     transform: translateY(-50%);
@@ -640,6 +640,7 @@ End-responsible-contents  only-pc
   }
   .intro .text{
     font-size: 18px;
+    text-align: left;
   }
     
   .obi{
@@ -652,6 +653,7 @@ End-responsible-contents  only-pc
   }
   .present .txt02{
     font-size: 16px;
+    text-align: left;
   }
   .present .img02{
     margin: 20px auto;
@@ -693,6 +695,7 @@ End-responsible-contents  only-pc
 }
 .test .text{
   font-size: 18px;
+  text-align: left;
 }
 .mini{
   text-align: left;
