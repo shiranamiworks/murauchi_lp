@@ -317,6 +317,15 @@ main{
 .slide01 .slick-dots li button:before{
   background: #E6E6E6;
 }
+.slide01 .slick-dots li{
+    width: 20px;
+    height: 20px;
+}
+.slide01 .slick-dots li button:before
+{
+    width: 10px;
+    height: 10px;
+}
 
 .animetion {
   opacity: 0;
@@ -1011,7 +1020,12 @@ margin-bottom: 20px;
 }
 .intro .txt01{
 text-align: left;
-font-size: 22px;
+font-size: 20px;
+}
+.intro .txt02 {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
 }
 .intro .mini{
 text-align: left;
@@ -1019,24 +1033,50 @@ text-align: left;
     
 .intro .title02 .mini{
   font-size: 16px;
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
 }
 .intro .title02{
   font-size: 38px;
+  line-height: 1.1;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.intro .title02 .mini02 {
+  display: block;
+  padding-left: 0;
+  padding-top: 5px;
 }
 .intro .logo-txt{
   font-size: 24px;
   padding-bottom: 10px;
 }
 .intro .title{
-  font-size: 38px;
+  font-size: 58px;
+  line-height: 1.1;
 }
 .intro .title .day{
   font-size: 22px;
   padding-top: 10px;
 }
+.intro.model {
+  padding: 30px 0 50px;
+  margin-top: 50px;
+}
     
+.slide01 li {
+  width: 90%;
+  margin: 0 auto 20px;
+}
+  
+.model li {
+    width: 100%;
+    margin: 0 auto 20px;
+}
+
+.coupe .prices {
+    margin: 40px auto 50px;
+}
 
 
     

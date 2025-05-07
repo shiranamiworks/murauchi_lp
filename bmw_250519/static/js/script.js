@@ -228,16 +228,17 @@ $('.slide01').slick({
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: true,
-    slidesToShow: 5,
+    slidesToShow: 4,
     centerMode: true,
     centerPadding: '25%',
     dots:true,
     responsive: [
       {
         breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        }
+        settings: "unslick",
+//        settings: {
+//          slidesToShow: 2,
+//        }
       }
     ]
 });
