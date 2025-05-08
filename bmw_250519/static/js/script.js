@@ -232,20 +232,17 @@ $('.slide01').slick({
     centerMode: true,
     centerPadding: '25%',
     dots:true,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: "unslick",
+//    responsive: [
+//      {
+//        breakpoint: 768,
 //        settings: {
 //          slidesToShow: 2,
 //        }
-      }
-    ]
+//      }
+//    ]
 });
 });
-$(window).on("resize orientationchange", function () {
-  $(".slide01").slick("resize");
-});
+
 
 $(function () {
 $('.slide02').slick({
