@@ -228,7 +228,7 @@ $('.slide01').slick({
     autoplay: true,
     autoplaySpeed: 4000,
     arrows: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     centerMode: true,
     centerPadding: '25%',
     dots:true,
