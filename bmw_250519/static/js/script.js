@@ -243,6 +243,9 @@ $('.slide01').slick({
     ]
 });
 });
+$(window).on("resize orientationchange", function () {
+  $(".slide01").slick("resize");
+});
 
 $(function () {
 $('.slide02').slick({
