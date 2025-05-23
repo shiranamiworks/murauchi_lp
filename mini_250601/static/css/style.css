@@ -435,6 +435,15 @@ End-responsible-contents  only-pc
   width: 31%;
   margin-right: 2%;
   margin-bottom: 80px;
+  position: relative;
+}
+.sec01 .animation_box .btn-img {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    bottom: 5%;
+    left: 0;
+    right: 0;
 }
 .sec01 .animation_box.box03 {
   margin: auto;
@@ -876,18 +885,18 @@ vertical-align: middle;
 }
 .main-visual .mv02{
   position: absolute;
-  width: 50%;
-  top: 7%;
+  width: 77%;
+  top: 13%;
 }
 .main-visual .mv03{
   position: absolute;
-  width: 53%;
-  top: 17%;
+  width: 78%;
+  top: 23%;
 }
 .main-visual .mv04{
   position: absolute;
-  width: 54%;
-  top: 30%;
+  width: 77%;
+  top: 36%;
 }
     
 .intro{
