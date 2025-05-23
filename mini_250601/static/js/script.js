@@ -9,10 +9,23 @@ $(function(){
 });
 
 $(function(){
-$('.main-visual .mv01')
-    .animate({'opacity':'1'}, 1600)
-    .animate({'opacity': '0'}, 800);
-    
+$('.main-visual .mv02')
+    .animate({'opacity':'0','left':'-10%'}, 0)
+    .animate({'opacity':'1','left':'6%'}, 1000);
+$('.main-visual .mv03')
+    .animate({'opacity':'0','left':'-10%'}, 0)
+    .animate({'opacity':'1','left':'6%'}, 1000);
+$('.main-visual .mv04')
+    .animate({'opacity':'0','left':'-10%'}, 0)
+    .animate({'opacity':'1','left':'6%'}, 1000);
+//$('.main-visual .mv03')
+//    .animate({'opacity':'0'}, 0)
+//    .animate({'left':'-10%'}, 800)
+//    .animate({'opacity':'1','left':'6%'}, 1000);
+//$('.main-visual .mv04')
+//    .animate({'opacity':'0'}, 0)
+//    .animate({'left':'-10%'}, 1600)
+//    .animate({'opacity':'1','left':'6%'}, 1000);
 $('.main-contents')
     .animate({'top':'0'}, 2400)
     .animate({'opacity':'1'}, 2000);
@@ -112,4 +125,57 @@ $(function(){
 			}
 		});
 	});
+});
+
+$(function () {
+  $(".animation_box.box01").css("visibility", "hidden");
+  $(window).scroll(function () {
+    var windowHeight = $(window).height(),
+      topWindow = $(window).scrollTop();
+    $(".animation_box.box01").each(function () {
+      var targetPosition = $(this).offset().top;
+      if (topWindow > targetPosition - windowHeight + 100) {
+        $(this).addClass("fadeInDown01");
+      }
+    });
+  });
+});
+$(function () {
+  $(".animation_box.box02").css("visibility", "hidden");
+  $(window).scroll(function () {
+    var windowHeight = $(window).height(),
+      topWindow = $(window).scrollTop();
+    $(".animation_box.box02").each(function () {
+      var targetPosition = $(this).offset().top;
+      if (topWindow > targetPosition - windowHeight + 100) {
+        $(this).addClass("fadeInDown02");
+      }
+    });
+  });
+});
+$(function () {
+  $(".animation_box.box03").css("visibility", "hidden");
+  $(window).scroll(function () {
+    var windowHeight = $(window).height(),
+      topWindow = $(window).scrollTop();
+    $(".animation_box.box03").each(function () {
+      var targetPosition = $(this).offset().top;
+      if (topWindow > targetPosition - windowHeight + 100) {
+        $(this).addClass("fadeInDown03");
+      }
+    });
+  });
+});
+
+$(function () {
+  if ($(".sec02").length) {
+    $(window).on("load", function () {});
+    $(".buttons a,.buttons span").on("click", function (event) {
+      event.preventDefault();
+      $(this).siblings("a").addClass("on");
+      $(this).siblings("span").addClass("on");
+      $(this).removeClass("on");
+      $(this).parents(".pull").find("dd").stop(true, true).slideToggle(300);
+    });
+  }
 });
