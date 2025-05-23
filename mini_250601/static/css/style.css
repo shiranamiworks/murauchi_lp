@@ -423,12 +423,12 @@ End-responsible-contents  only-pc
 .sec01 .lead{
   font-size: 16px;
   line-height: 1.5;
-  margin: 30px auto;
+  margin: 30px auto 10px;
 }
 .sec01 .mini{
   font-size: 11px;
   line-height: 1.5;
-  margin: 20px auto 0;
+  margin: 0 auto 30px;
 }
 .sec01 .animation_box {
   display: inline-block;
@@ -616,6 +616,18 @@ End-responsible-contents  only-pc
   display: block;
 }
 
+.sec03 .tit{
+  font-size: 40px;
+  line-height: 1.4;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.sec03 .txt{
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 auto 40px;
+  text-align: center;
+}
 .sec03 .image{
   position: relative;
   margin-bottom: 20px;
@@ -1081,6 +1093,14 @@ vertical-align: middle;
   display: block;
 }
 
+.sec03 .tit{
+  font-size: 28px;
+  text-align: left;
+}
+.sec03 .txt{
+  font-size: 15px;
+  text-align: left;
+}
 .sec03 .image{
   position: relative;
   margin-bottom: 20px;
