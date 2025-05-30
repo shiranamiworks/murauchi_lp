@@ -575,8 +575,8 @@ main{
 }
 
 .btn{
-  max-width: 770px;
-  margin: auto;
+  max-width: 600px;
+  margin: 50px auto 0;
 }
 .btn .comments{
   font-size: 12px;
@@ -585,14 +585,49 @@ main{
 }
 .btn a{
   background: #1C69D4;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
   border-radius: 3px;
-  padding: 6px 0;
+  padding: 30px 0;
   display: block;
   transition: .3s;
 }
 .btn a:hover{
   opacity: 1;
   background: #0653B6;
+}
+
+.shiny-btn {
+  display: block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+.shiny-btn:hover {
+  text-decoration: none;
+  box-shadow: none;
+/*  -webkit-transform: translateY(3px);*/
+}
+.shiny-btn::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  top: -180px;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: #fff;
+  transition: 0.2s;
+  animation : shiny-btn2 3s ease-in-out infinite;
+  z-index: 10;
+}
+@-webkit-keyframes shiny-btn2 {
+  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 
 h2{
@@ -1110,7 +1145,7 @@ text-align: left;
 
     
 .btn a{
-  padding: 6px 0;
+  font-size: 19px;
 }
 
 
