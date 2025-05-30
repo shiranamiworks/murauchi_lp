@@ -1143,7 +1143,9 @@ text-align: left;
 }
 
 
-    
+.btn{
+  margin: 30px auto 0;
+}
 .btn a{
   font-size: 19px;
 }
