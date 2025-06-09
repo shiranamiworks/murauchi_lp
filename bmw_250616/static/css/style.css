@@ -737,6 +737,11 @@ main{
   max-width: 938px;
   margin: 24px auto 0;
 }
+.club .btn-txt{
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
 
 .btn{
   max-width: 428px;
