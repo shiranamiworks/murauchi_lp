@@ -1395,6 +1395,12 @@ text-align: left;
   max-width: 692px;
   margin: auto;
 }
+.club .btn-txt{
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
 
   .corporate li{
     display: block;
