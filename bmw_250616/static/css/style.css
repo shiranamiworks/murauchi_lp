@@ -291,8 +291,8 @@ main{
 }
 
 .click-btn {
-  max-width: 428px;
-  margin: 60px auto 20px;
+  max-width: 360px;
+  margin: 30px auto 20px;
   text-align: center;
 }
 .click-btn a.btn{
@@ -614,11 +614,14 @@ main{
   color: #000;
   font-weight: normal;
 }
-.intro .day{
+.intro .map{
   max-width: 800px;
+  width: 94%;
   margin: 0 auto 50px;
   padding: 0 10px 20px;
   border: 2px solid #0653B6;
+}
+.intro .day{
   font-size: 24px;
   line-height: 1.6;
   font-weight: normal;
@@ -638,6 +641,23 @@ main{
   margin-top: 150px;
   border-top: 1px solid #0653B6;
   border-bottom: 1px solid #0653B6;
+}
+.intro .anchor-btn{
+    max-width: 428px;
+    margin: 50px auto 30px;
+    padding: 16px 0;
+    border: 1px solid;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+    color: #0653B6;
+}
+.intro .anchor-btn a{
+    color: #0653B6;
+}
+.intro .anchor-btn .big{
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .event{
