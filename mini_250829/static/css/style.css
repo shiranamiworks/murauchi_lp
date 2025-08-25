@@ -990,6 +990,9 @@ vertical-align: middle;
   display: block;
 }
 
+.limited{
+  display: none;
+}
 .limited-sp .wrap{
   margin-bottom: 40px;
 }
