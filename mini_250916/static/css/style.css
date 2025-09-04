@@ -465,6 +465,11 @@ End-responsible-contents  only-pc
   line-height: 2;
   margin-bottom: 80px;
 }
+.sec02 .text01{
+  text-align: center;
+  margin: 120px auto;
+  font-size: 40px;
+}
 .limited{
   max-width: 1600px;
   margin: auto;
@@ -498,7 +503,12 @@ End-responsible-contents  only-pc
   font-size: 16px;
 }
 .limited .lists .price{
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.limited .lists .price span{
+  font-size: 36px;
   line-height: 1.4;
   margin-bottom: 10px;
 }
