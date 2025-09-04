@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+/*----------------------------
+  default
+----------------------------*/
+@import '//fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&subset=japanese';
+
+/*
+@font-face {
+  font-family: "MINI Serif-Regular";
+  font-weight: 100;
+  src: url("../font/MINI Serif-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "MINI Serif-Bold";
+  font-weight: 700;
+  src: url("../font/font/MINI Serif-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "MINI Serif-Italic";
+  src: url("../font/MINI Serif-Italic.woff") format("woff");
+}
+@font-face {
+  font-family: "MotoyaAporoStd-W3";
+  src: url("../font/MotoyaAporoStd-W3.woff") format("woff");
+}
+*/
+
+/*----------------------------
+  reset
+----------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  line-height: 1;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDE0IDc5LjE1Njc5NywgMjAxNC8wOC8yMC0wOTo1MzowMiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEI1MzY2NTA1RTY2MTFFNUExRTlDMDdERTNCNDFENkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEI1MzY2NTE1RTY2MTFFNUExRTlDMDdERTNCNDFENkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowQjUzNjY0RTVFNjYxMUU1QTFFOUMwN0RFM0I0MUQ2QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowQjUzNjY0RjVFNjYxMUU1QTFFOUMwN0RFM0I0MUQ2QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pj3ggHcAAAAQSURBVHjaYvj//z8DQIABAAj8Av7bok0WAAAAAElFTkSuQmCC");
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+sup {
+  font-size: 12px;
+  vertical-align: super;
+}
+div {
+  line-height: 0;
+}
+ul li {
+  list-style: none;
+}
+input, select {
+  vertical-align: middle;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+table {
+  font-size: 100%;
+  border-collapse: collapse;
+  width: 100%;
+}
+main {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width: 1025px) {
+  a:hover {
+    transition: opacity .3s;
+    opacity: 0.7;
+  }
+}
+html,
+body,
+input,
+textarea,
+select,
+/*
+button {
+  font-family: MINI Serif-Regular, MotoyaAporoStd-W3, Helvetica, Arial, 'Noto Sans JP', Meiryo;
+  scroll-behavior: smooth;
+}
+*/
+button {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Yu Gothic', YuGothic, Roboto, Ubuntu, 'Hiragino Kaku Gothic Pro', 'Hiragino Sans GB', Meiryo, 'Malgun Gothic', 'Helvetica Neue', sans-serif;
+}
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.214;
+  color: #262626;
+  background-color: #2A58AF;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  /*font-family: MINI Serif-Regular, MotoyaAporoStd-W3, Helvetica, Arial, 'Noto Sans JP', Meiryo;*/
+/*  font-family: MINI Serif-Regular, MotoyaAporoStd-W3, Helvetica, Arial, 'Noto Sans JP', Meiryo;*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Yu Gothic', YuGothic, Roboto, Ubuntu, 'Hiragino Kaku Gothic Pro', 'Hiragino Sans GB', Meiryo, 'Malgun Gothic', 'Helvetica Neue', sans-serif;
+}
+/*.corporate{
+font-family: corporate-logo-ver2, sans-serif;
+}/*
+
+/*----------------------------
+ responsible-contents
+--*/
+/*----------------------------
+  responsible-contents  only-pc
+-- */
+@media screen and (min-width: 1025px) {
+  img.pc {
+    display: inline-block !important;
+  }
+  .pc {
+    display: block !important;
+  }
+  .sp, .tb {
+    display: none !important;
+  }
+}
+/*--
+End-responsible-contents  only-pc
+----------------------------*/
+/*----------------------------
+  responsible-contents  tablet
+--*/
+@media screen and (max-width: 1024px) {
+  .sp {
+    display: none !important;
+  }
+  .tb {
+    display: block !important;
+  }
+  img.tb {
+    display: inline-block !important;
+  }
+  span.tb {
+    display: inline !important;
+  }
+}
+/*--
+  End-responsible-contents  tablet
+----------------------------*/
+/*----------------------------
+  responsible-contents  sp
+--*/
+@media screen and (max-width: 768px) {
+  .pc, .tb {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
+  img.sp {
+    display: inline-block !important;
+  }
+  span.sp {
+    display: inline !important;
+  }
+}
+
+/*--
+  End-responsible-contents  sp
+----------------------------*/
+@media (max-width: 768px) {
+  sup {
+    font-size: 8px;
+  }
+  .pc {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
+  .wrap {
+    width: 94%;
+  }
+}
+
+/*----------------------------
+  layout
+----------------------------*/
+.main-contents {
+    text-align: center;
+    margin:auto;
+    padding: 100px 0;
+}
+.complete {
+    background-color: #fff;
+    display: inline-block;
+    margin: auto;
+    padding: 100px 50px 30px;
+}
+.main-contents .title{
+    margin: 50px auto 30px;
+    font-size: 25px;
+}
+.main-contents .text{
+    font-size: 17px;
+    line-height: 1.5;
+}
+.footer {
+    margin-top: 150px;
+}
+.footer .image{
+    max-width: 220px;
+    margin: auto;
+}
+@media screen and (max-width:768px) {
+  .complete {
+    padding: 50px 30px;
+  }
+  .main-contents .title{
+    font-size: 22px;
+  }
+  .main-contents .text{
+    font-size: 15px;
+  }
+  .footer {
+    margin-top: 70px;
+  }
+}
