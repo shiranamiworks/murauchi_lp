@@ -969,9 +969,11 @@ vertical-align: middle;
 .limited .lists.reverse li{
   width: 100%;
   margin: -60px auto 0;
+  z-index: 0;
 }
 .limited .lists.reverse li:last-child{
   width: 100%;
+  z-index: -1;
 }
 .limited .lists.reverse li .texts{
   width: 90%;
