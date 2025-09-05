@@ -468,7 +468,7 @@ End-responsible-contents  only-pc
 .sec02 .text01{
   text-align: center;
   margin: 120px auto;
-  font-size: 40px;
+  font-size: 36px;
 }
 .limited{
   max-width: 1600px;
@@ -523,6 +523,7 @@ End-responsible-contents  only-pc
 
 .limited .lists.reverse{
   text-align: right;
+  margin-bottom: 30px;
 }
 .limited .lists.reverse li{
   display: inline-block;
@@ -539,7 +540,7 @@ End-responsible-contents  only-pc
 }
 
 .sec03 ul{
-  max-width: 916px;
+  max-width: 1000px;
   margin: 40px auto 0;
 }
 .sec03 li{
@@ -842,7 +843,7 @@ vertical-align: middle;
 
 .sec01{
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .sec01 .mini{
   text-align: left;
@@ -909,6 +910,75 @@ vertical-align: middle;
 .sec02 .img01{
   margin-bottom: 40px;
 }
+.sec02 .text01 {
+  margin: 0 auto;
+  font-size: 28px;
+  line-height: 1.4;
+}
+
+.limited .lists{
+  margin: 0 auto 100px;
+}
+.limited .lists li{
+  display: block;
+  width: 100%;
+}
+.limited .lists li:last-child{
+  width: 100%;
+  margin: -60px auto 0;
+}
+.limited .lists li:last-child .texts{
+  width: 90%;
+  margin: auto;
+}
+.limited .lists .name{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.limited .lists .color{
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.limited .lists .color span{
+  font-size: 16px;
+}
+.limited .lists .price{
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.limited .lists .price span{
+  font-size: 30px;
+  line-height: 1.4;
+  margin-bottom: 0px;
+}
+.limited .lists .btn-list{
+  margin-top: 20px;
+}
+.limited .lists .btn-list.button02{
+  margin-top: 10px;
+}
+
+
+
+.limited .lists.reverse{
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 auto 50px;
+}
+.limited .lists.reverse li{
+  width: 100%;
+  margin: -60px auto 0;
+}
+.limited .lists.reverse li:last-child{
+  width: 100%;
+}
+.limited .lists.reverse li .texts{
+  width: 90%;
+  margin: auto;
+}
+    
+    
 .sec02 .waku{
   position: relative;
   max-width: 1260px;
@@ -1012,7 +1082,7 @@ vertical-align: middle;
   display: inline-block;
   width: 100%;
   margin-right: 0;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .sec03 .text{
   font-size: 16px;
@@ -1153,7 +1223,7 @@ vertical-align: middle;
 
 @media screen and (max-width:425px) {
   .page-top {
-    bottom: 16%;
+    bottom: 15%;
   }
 }
 

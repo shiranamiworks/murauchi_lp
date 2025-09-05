@@ -11,7 +11,7 @@ $(function(){
 $(function(){
 $('.main-visual .mv02')
     .animate({'opacity':'0','left':'-10%'}, 0)
-    .animate({'opacity':'1','left':'3%'}, 1000);
+    .animate({'opacity':'1','left':'5%'}, 1000);
 $('.main-visual .mv03')
     .animate({'opacity':'0','left':'-10%'}, 0)
     .animate({'opacity':'1','left':'6%'}, 1000);
