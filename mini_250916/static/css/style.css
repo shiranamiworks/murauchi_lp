@@ -368,7 +368,8 @@ End-responsible-contents  only-pc
   margin-bottom: 16px;
 }
 .intro .txt{
-  font-size: 72px;
+  font-size: 50px;
+  line-height: 1.4;
   margin-bottom: 28px;
 }
 .intro .txt span{
@@ -457,7 +458,12 @@ End-responsible-contents  only-pc
   margin-bottom: 15px;
 }
 .sec02 .tit02{
-  font-size: 45px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.sec02 .tit02 .big{
+  font-size: 50px;
+  background: linear-gradient(transparent 0, #26D6C3 0);
   margin-bottom: 10px;
 }
 .sec02 .txt{
@@ -829,7 +835,7 @@ vertical-align: middle;
   margin-bottom: 16px;
 }
 .intro .txt{
-  font-size: 48px;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 .intro .txt span{
@@ -914,6 +920,12 @@ vertical-align: middle;
   margin: 0 auto;
   font-size: 28px;
   line-height: 1.4;
+}
+.sec02 .tit02 {
+  font-size: 30px;
+}
+.sec02 .tit02 .big{
+  font-size: 40px;
 }
 
 .limited .lists{
