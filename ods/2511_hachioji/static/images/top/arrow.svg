@@ -1,0 +1,7 @@
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <g id="楕円形_1" data-name="楕円形 1" fill="none" stroke="#184837" stroke-width="1">
+    <circle cx="21.5" cy="21.5" r="21.5" stroke="none"/>
+    <circle cx="21.5" cy="21.5" r="21" fill="none"/>
+  </g>
+  <path id="arrow-2" data-name="arrow" d="M13.6,14.544a.669.669,0,0,1,0-.947l5.555-5.556H.671a.67.67,0,1,1,0-1.34H19.154L13.6,1.143A.669.669,0,0,1,14.544.2L21.719,7.37l-.461.461-.026.026-6.688,6.687a.668.668,0,0,1-.947,0Z" transform="translate(10.462 13.792)" fill="#184837"/>
+</svg>
