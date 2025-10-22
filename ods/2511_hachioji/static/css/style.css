@@ -216,10 +216,12 @@ End-responsible-contents  only-pc
   opacity: 1;
 }
 
+/*
 .all_wrap{
-  max-width: 1400px;
+  width: 1400px;
   margin: auto;
 }
+*/
 .main-visual{
   position: relative;
 }
@@ -244,7 +246,7 @@ End-responsible-contents  only-pc
 }
 
 .special .inners{
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 .special ul{
   display: flex;
@@ -253,9 +255,11 @@ End-responsible-contents  only-pc
 }
 .special li{
   width: 49%;
+/*
   background: linear-gradient(180deg, #E5E5E5 0%, #E5E5E5 80%, #184837 80%, #184837 100%);
   border-radius: 16px;
   position: relative;
+*/
 }
 .special li .img02{
   margin-top: 24px;
@@ -263,8 +267,13 @@ End-responsible-contents  only-pc
 .special li:last-child{
   background: none;
 }
+.special li .caption{
+  font-size: 10px;
+  text-align: right;
+  padding-top: 5px;
+}
 .special .texts{
-  max-width: 400px;
+  max-width: 450px;
   width: 90%;
   margin: auto;
   padding-top: 8%;
@@ -368,36 +377,6 @@ End-responsible-contents  only-pc
   margin: 0 auto 50px;
 }
 
-.present{
-  margin: 0 auto 60px;
-  max-width: 1100px;
-  width: 94%;
-}
-.present .txt02{
-  text-align: center;
-  font-size: 22px;
-  margin: 0 auto 50px;
-  line-height: 2;
-}
-.present .wrap{
-  max-width: 900px;
-  margin: auto;
-}
-.present .img02{
-  margin: 40px auto;
-}
-.present .caps{
-  border: 1px solid;
-  padding: 20px 30px;
-  box-sizing: border-box;
-  text-align: left;
-  font-size: 14px;
-  line-height: 1.8;
-}
-.present .caps span{
-  font-size: 12px;
-}
-
 .buttons{
   text-align: center;
   max-width: 1100px;
@@ -431,13 +410,20 @@ End-responsible-contents  only-pc
 
 
 .test{
-  text-align: center;
+  padding: 70px 0 0;
+  background-image: url("../images/top/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.test .wrap{
   max-width: 1100px;
   width: 94%;
-  margin: auto;
+  margin: 0 auto 70px;
 }
 .test .obi{
-  margin: 0 auto 20px;
+  margin: 0 auto 40px;
+  text-align: center;
 }
 .test .text{
   text-align: center;
@@ -460,44 +446,55 @@ End-responsible-contents  only-pc
   margin: auto;
 }
 
-
-.lineup{
-  text-align: center;
-  max-width: 1100px;
-  width: 94%;
-  margin: 0 auto 40px;
+.test .spe-btn{
+  max-width: 380px;
+  margin: 50px auto 0;
 }
-.lineup .wrap{
-  max-width: 900px;
-  margin: auto;
+.test .spe-btn{
+  max-width: 380px;
+  margin: 50px auto 0;
 }
-.lineup .cars{
-  margin-bottom: 80px;
-}
-.lineup .images{
-  margin: 20px auto;
-}
-.lineup .images li{
-  display: inline-block;
-  width: 48%;
-  margin-right: 2%;
-}
-.lineup .images li:last-child{
-  margin: auto;
-}
-.lineup .info{
-  text-align: center;
-  font-size: 20px;
+.test .spe-btn a{
+  position: relative;
+  font-size: 18px;
+  color: #184837;
   font-weight: bold;
-  line-height: 1.9;
-  letter-spacing: 0.02em;
+  border: 1px solid;
+  padding: 20px 0 20px 20px;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 50px;
+  transition: .3s;
 }
-.lineup .info span{
-  font-size: 16px;
+.test .spe-btn a span:after {
+  content: '';
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  background-image: url(../images/top/arrow.svg);
+  background-size: contain;
+  vertical-align: middle;
+  position: absolute;
+  top: 8px;
+  right: 15px;
 }
-.lineup .mini{
-  text-align: left;
-  font-size: 14px;
+.test .spe-btn a:hover{
+  color: #fff;
+  background: #184837;
+  padding: 20px 0 20px 40px;
+  opacity: 1;
+}
+.test .spe-btn a:hover span:after {
+  content: '';
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  background-image: url(../images/top/arrow-hover.svg);
+  background-size: contain;
+  vertical-align: middle;
+  position: absolute;
+  top: 8px;
+  right: 15px;
 }
 
 .btns{
@@ -572,7 +569,7 @@ End-responsible-contents  only-pc
 .sns{
     position: relative;
     border-bottom: 1px solid;
-    margin: 30px auto;
+    margin: 70px auto;
     padding-bottom: 80px;
     text-align: center;
 }
@@ -801,9 +798,11 @@ End-responsible-contents  only-pc
   .all_wrap {
     overflow:hidden;
   }
+/*
   .main-visual {
     margin-bottom: 30px;
   }
+*/
     
   .intro{
     margin-bottom: 30px;
@@ -855,10 +854,7 @@ End-responsible-contents  only-pc
   }
 
 .test{
-  text-align: center;
-  max-width: 1200px;
-  width: 94%;
-  margin: auto;
+  margin-top: 40px;
 }
 .test .obi{
   margin: 0 auto 20px;
@@ -877,40 +873,29 @@ End-responsible-contents  only-pc
   margin: 0 auto;
 }
 
-.lineup{
-  margin: 0 auto;
-}
-.lineup .cars{
-  margin-bottom: 30px;
-}
-.lineup .images{
-  margin: 10px auto;
-}
-.lineup .info{
-  font-size: 15px;
-}
-.lineup .info span{
-  font-size: 13px;
-}
-.lineup .mini{
-  font-size: 12px;
-  line-height: 1.4;
-  margin: auto;
-}
+  .special ul{
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .special li{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .special ul li:first-child {
+    order: 2;
+  }
 
-  .lineup .img02{
-    padding-top: 20px;
+  .special ul li:last-child {
+    order: 1;
   }
-    
-  .lineup .txt01{
-    font-size: 36px;
+  .special li .img02{
+    margin-top: 10px;
   }
-  .lineup .txt02{
-    font-size: 15px;
-    text-align: left;
+  .special .inners {
+    padding-bottom: 50px;
   }
-  .lineup .btn{
-    margin: 30px auto 50px;
+  .special .spe-btn {
+    margin: 30px auto 0;
   }
   
   .test-drive .obi{
