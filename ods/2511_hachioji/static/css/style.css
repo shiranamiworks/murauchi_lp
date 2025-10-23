@@ -187,6 +187,8 @@ End-responsible-contents  only-pc
 .all-wrap {
   overflow: hidden;
   width: 100%;
+  margin: auto;
+  max-width: 1600px;
 }
 .clearfix:before, .clearfix:after {
   content: "";
@@ -218,7 +220,7 @@ End-responsible-contents  only-pc
 
 /*
 .all_wrap{
-  width: 1400px;
+  width: 1600px;
   margin: auto;
 }
 */
