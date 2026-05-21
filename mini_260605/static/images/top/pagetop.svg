@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="pagetop" transform="translate(-110 -30)">
+    <path id="パス_3" data-name="パス 3" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(110 30)"/>
+    <g id="flowKitConnector" transform="translate(80.5 213.699) rotate(-90)">
+      <path id="line" d="M150,50h26.7" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="leftEdge" transform="translate(150 50)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="rightEdge" d="M-11.25-7.5h0L0,0-11.25,7.5" transform="translate(176.699 50)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
