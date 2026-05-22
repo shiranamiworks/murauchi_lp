@@ -222,7 +222,7 @@ End-responsible-contents  only-pc
 
 .fix_navi {
   position: fixed;
-  max-width: 280px;
+  max-width: 230px;
   width: 100%;
   top: 75%;
   right: 0;
@@ -360,15 +360,15 @@ End-responsible-contents  only-pc
   text-align: center;
   padding: 65px 0;
   margin-bottom: 120px;
-  background: #26D6C3;
+  background: #2D46DF;
   color: #fff;
 }
 .intro .tit{
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 16px;
 }
 .intro .txt{
-  font-size: 50px;
+  font-size: 28px;
   line-height: 1.4;
   margin-bottom: 28px;
 }
@@ -377,8 +377,17 @@ End-responsible-contents  only-pc
 }
 .intro .lead{
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 16px;
  line-height: 1.6;
+  margin-bottom: 28px;
+}
+.intro .txt02{
+  font-size: 12px;
+  line-height: 1.6;
+}
+.intro .image{
+  max-width: 300px;
+  margin: auto;
 }
 
 .sec01{
@@ -609,6 +618,9 @@ h2{
 /*  border-top: 1px solid;*/
   padding: 100px 0 40px;
 }
+.stores.wrap{
+  max-width: 1000px;
+}
 .stores .line-txt{
   font-size: 30px;
   font-weight: bold;
@@ -624,6 +636,12 @@ h2{
   border-top: none;
   text-align: center;
   font-size: 26px;
+}
+.store-tit {
+  margin-bottom: 80px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.6;
 }
 .store-list{
   margin-bottom: 40px;
@@ -644,13 +662,13 @@ h2{
   display: none;
 }
 .store-list .name{
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.1;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .store-list .add{
-  font-size: 18px;
-  line-height: 1.1;
+  font-size: 16px;
+  line-height: 1.3;
   margin-bottom: 20px;
 }
 .store-list .red{
@@ -667,7 +685,7 @@ vertical-align: middle;
   background: #000;
   color: #fff;
   font-size: 20px;
-  padding: 26px 0 22px;
+  padding: 22px 0 18px;
   max-width: 220px;
   width: 80%;
 }
@@ -761,6 +779,9 @@ vertical-align: middle;
   .stores{
     padding: 50px 0 0;
   }
+  .store-tit {
+  margin-bottom: 40px;
+}
   .store-list li{
     display: block;
     width: 80%;
@@ -831,11 +852,10 @@ vertical-align: middle;
   margin-bottom: 40px;
 }
 .intro .tit{
-  font-size: 20px;
+  line-height: 1.4;
   margin-bottom: 16px;
 }
 .intro .txt{
-  font-size: 35px;
   margin-bottom: 20px;
 }
 .intro .txt span{
@@ -845,6 +865,9 @@ vertical-align: middle;
   text-align: left;
   font-size: 15px;
   margin-top: 20px;
+}
+.intro .txt02{
+  text-align: left;
 }
 
 .sec01{
