@@ -196,3 +196,25 @@ $(function () {
     });
   }
 });
+
+$(function(){
+  $('.slider01').slick({
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 5000,
+    cssEase: "linear",
+    slidesToShow: 4,
+    swipe: false,
+    arrows: false,
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 1.5,
+        }
+      }
+    ]
+  });
+});
