@@ -115,7 +115,7 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    /*margin-bottom: 80px;*/
+    margin-bottom: 80px;
 }
 @media screen and (max-width:768px) {
 .slick-dotted.slick-slider
