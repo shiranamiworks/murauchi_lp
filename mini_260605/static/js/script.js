@@ -197,22 +197,46 @@ $(function () {
   }
 });
 
+//$(function(){
+//  $('.slider01').slick({
+//    autoplay: true,
+//    autoplaySpeed: 0,
+//    speed: 7000,
+//    cssEase: "linear",
+//    slidesToShow: 4,
+//    swipe: false,
+//    arrows: false,
+//    pauseOnFocus: false,
+//    pauseOnHover: false,
+//    responsive: [
+//      {
+//        breakpoint: 750,
+//        settings: {
+//          slidesToShow: 1.5,
+//        }
+//      }
+//    ]
+//  });
+//});
+
 $(function(){
   $('.slider01').slick({
     autoplay: true,
-    autoplaySpeed: 0,
-    speed: 7000,
-    cssEase: "linear",
+    autoplaySpeed: 3000,
+    speed: 600,
     slidesToShow: 4,
-    swipe: false,
+    slidesToScroll: 1,
     arrows: false,
+    dots: true,
     pauseOnFocus: false,
     pauseOnHover: false,
+
     responsive: [
       {
         breakpoint: 750,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       }
     ]
